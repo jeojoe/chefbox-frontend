@@ -1,0 +1,13 @@
+{
+  "name": "fashappen-frontend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeojoe/fashappen-frontend.git",
+  "author": "Jirat Onaree <jirat.onaree@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^3.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
