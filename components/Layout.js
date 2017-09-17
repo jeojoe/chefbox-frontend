@@ -9,7 +9,8 @@ const Layout = ({ children, title }) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link href="https://fonts.googleapis.com/css?family=Mitr:300,500" rel="stylesheet" />
-      <link href="/static/normalize.css" rel="stylesheet" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     <nav id={c.nav}>
