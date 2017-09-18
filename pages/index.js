@@ -10,11 +10,10 @@ export default () => (
       {/* Banner */}
       <section className="container white-bg">
         <div className="banner">
-          <h1>Ingredient Delivered<br />to Your Home.</h1>
+          <h1>Ingredients Delivered<br />to Your Home.</h1>
+          <h2>ชุดทำอาหารสำเร็จรูป ส่งตรงถึงบ้านคุณ</h2>
           <div className="enjoy">Just ENJOY COOKING !</div>
-          <div>
-            <a className="button accent action">เลือกเมนู {'>'}</a>
-          </div>
+          <a className="button accent action">เลือกเมนู {'>'}</a>
         </div>
       </section>
       {/* Problem */}
@@ -23,22 +22,22 @@ export default () => (
           <div className="row" style={{ padding: '20px 20px 0' }}>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                หาวัตถุดิบไม่ได้ ?
+                วัตถุดิบครบครัน
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ซื้อปริมาณเท่าไหร่ ?
+                ปริมาณพอเหมาะ
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ทำแล้วไม่อร่อย ?
+                การันตีความอร่อย
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ไม่หมดของเหลือ ?
+                ไม่ทิ้งของเหลือ
               </div>
             </div>
           </div>
@@ -109,7 +108,7 @@ export default () => (
       {/* Menu of the month */}
       <section className="menu-month container white-bg">
         <div className="row center-xs">
-          <div className="col-xs-11 col-md-9">
+          <div className="col-xs-11 col-md-10">
             <div className="box">
               <div className="header"><h1>Menu of the Month</h1></div>
               <h1>sdlfksdlfksdlfk</h1>
