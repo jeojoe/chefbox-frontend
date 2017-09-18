@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import stylesheet from './Layout.css';
+import stylesheet from '../styles/components/Layout.css';
 
 const Layout = ({ children, title }) => (
   <div>
@@ -17,18 +17,26 @@ const Layout = ({ children, title }) => (
     {/* Navbar */}
     <nav id="nav">
       <div className="container" style={{ height: '100%' }}>
-        <div className="row">
-          <div className="col-xs-4">
-            <Link href="/menu">
-              <a className="button" >เมนูของเรา</a>
-            </Link>
+        <div className="row" style={{ height: '100%' }}>
+          <div className="col-xs-4 middle-xs">
+            <div className="box">
+              <Link href="/menu">
+                <a className="button" >เมนูของเรา</a>
+              </Link>
+            </div>
           </div>
-          <div className="col-xs-4 center-xs">
-            <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" />
+          <div className="col-xs-4 middle-xs center-xs">
+            <div className="box">
+              <Link href="/">
+                <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" style={{ cursor: 'pointer' }} />
+              </Link>
+            </div>
           </div>
-          <div className="col-xs-4 end-xs">
-            <a>เข้าสู่ระบบ</a>
-            <a className="button-accent">สมัครสมาชิค</a>
+          <div className="col-xs-4 middle-xs end-xs">
+            <div className="box">
+              <a className="button">เข้าสู่ระบบ</a>
+              <a className="button accent">สมัครสมาชิค</a>
+            </div>
           </div>
         </div>
       </div>
@@ -38,14 +46,9 @@ const Layout = ({ children, title }) => (
 
     { children }
 
-    {/* <footer>
+    <footer style={{ height: '300px' }}>
       this is footer
-    </footer> */}
-    <style jsx>{`
-      .button-accent {
-        background-color: blue;
-      }
-    `}</style>
+    </footer>
   </div>
 );
 
