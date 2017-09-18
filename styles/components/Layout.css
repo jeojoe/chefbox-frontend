@@ -2,6 +2,7 @@
 
 #nav {
   position: fixed;
+  z-index: 999;
   top: 0;
   left: 50;
   height: 75px;
@@ -52,4 +53,13 @@ div {
 .button.accent:hover {
   text-decoration: none;
   background-color: var(--accentDarkenColor1);
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.white-bg {
+  background-color: #fff;
 }
