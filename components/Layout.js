@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import { stylesheet, classNames as c } from './Layout.css';
+import Link from 'next/link';
+import stylesheet from './Layout.css';
 
 const Layout = ({ children, title }) => (
   <div>
@@ -14,16 +15,18 @@ const Layout = ({ children, title }) => (
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     {/* Navbar */}
-    <nav id={c.nav}>
+    <nav id="nav">
       <div className="container" style={{ height: '100%' }}>
         <div className="row">
           <div className="col-xs-4">
-            <a>เมนูของเรา</a>
+            <Link href="/menu">
+              <a className="button" >เมนูของเรา</a>
+            </Link>
           </div>
-          <div className="col-xs-4">
-            <img src="/static/logo.png" className={c.logo} alt="Chefbox Delivery : Ready to Cook" />
+          <div className="col-xs-4 center-xs">
+            <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" />
           </div>
-          <div className="col-xs-4">
+          <div className="col-xs-4 end-xs">
             <a>เข้าสู่ระบบ</a>
             <a className="button-accent">สมัครสมาชิค</a>
           </div>
@@ -31,7 +34,7 @@ const Layout = ({ children, title }) => (
       </div>
     </nav>
 
-    <div className={c.spacer} />
+    <div className="spacer" />
 
     { children }
 
