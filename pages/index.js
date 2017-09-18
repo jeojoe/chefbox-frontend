@@ -22,22 +22,22 @@ export default () => (
           <div className="row" style={{ padding: '20px 20px 0' }}>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                วัตถุดิบครบครัน
+                ~ วัตถุดิบครบครัน ~
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ปริมาณพอเหมาะ
+                ~ ปริมาณพอเหมาะ ~
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                การันตีความอร่อย
+                ~ การันตีความอร่อย ~
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ไม่ทิ้งของเหลือ
+                ~ ไม่ทิ้งของเหลือ ~
               </div>
             </div>
           </div>
