@@ -38,6 +38,10 @@ div {
   font-family: 'Mitr';
   text-decoration: none;
   cursor: pointer;
+  .material-icons {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
 }
 .button:hover {
   color: var(--mainDarkenColor);

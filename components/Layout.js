@@ -12,6 +12,7 @@ const Layout = ({ children, title }) => (
       <link href="https://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     {/* Navbar */}
@@ -21,7 +22,16 @@ const Layout = ({ children, title }) => (
           <div className="col-xs-4 middle-xs">
             <div className="box">
               <Link href="/menu">
-                <a className="button" >เมนูของเรา</a>
+                <a className="button">
+                  <i className="material-icons">restaurant</i>
+                  เมนูของเรา
+                </a>
+              </Link>
+              <Link href="/how-to-buy">
+                <a className="button" >
+                  <i className="material-icons">shopping_cart</i>
+                  วิธีการสั่งซื้อ
+                </a>
               </Link>
             </div>
           </div>
