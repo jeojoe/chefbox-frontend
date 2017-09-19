@@ -19,8 +19,8 @@ const Layout = ({ children, title }) => (
     {/* Navbar */}
     <nav id="nav">
       <div className="container" style={{ height: '100%' }}>
-        <div className="row" style={{ height: '100%' }}>
-          <div className="col-xs-4 middle-xs">
+        <div className="row between-xs" style={{ height: '100%' }}>
+          <div className="col-xs-5 middle-xs">
             <div className="box">
               <Link href="/menu">
                 <a className="button">
@@ -36,14 +36,14 @@ const Layout = ({ children, title }) => (
               </Link>
             </div>
           </div>
-          <div className="col-xs-4 middle-xs center-xs">
+          <div className="col-xs-2 middle-xs center-xs">
             <div className="box">
               <Link href="/">
                 <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" style={{ cursor: 'pointer' }} />
               </Link>
             </div>
           </div>
-          <div className="col-xs-4 middle-xs end-xs">
+          <div className="col-xs-5 middle-xs end-xs">
             <div className="box">
               <a className="button">เข้าสู่ระบบ</a>
               <a className="button accent">สมัครสมาชิค</a>
@@ -91,15 +91,16 @@ const Layout = ({ children, title }) => (
                   <a>คำถามที่พบบ่อย</a>
                   <a>Terms & Privacy</a>
                   <a>เกี่ยวกับเรา</a>
+                  <p>© CHEF BOX DELIVERY 2017</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-md-3">
+          {/* <div className="col-xs-12 col-md-3">
             <div className="box watermark">
               <p>© CHEF BOX DELIVERY 2017, Alright Reserved.</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
