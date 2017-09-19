@@ -13,6 +13,7 @@ const Layout = ({ children, title }) => (
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     {/* Navbar */}
@@ -56,8 +57,51 @@ const Layout = ({ children, title }) => (
 
     { children }
 
-    <footer style={{ height: '300px' }}>
-      this is footer
+    <footer id="footer">
+      <div className="container">
+        <div className="row around-xs">
+          <div className="col-xs-12 col-md-3 company">
+            <img src="/static/logo.png" alt="Chef Box Delivery : Ready to Cook" className="logo" />
+            <h5>Chef Box Delivery - Ready to Cook</h5>
+            <p>วัตุดิบทำอาหารสำเร็จรูป ส่งตรงถึงบ้านคุณง่ายๆ สนุกกับการทำอาหารได้อย่างเต็มที่ !</p>
+            <p>chefbox.delivery@gmail.com, 090-686-6563</p>
+          </div>
+          <div className="col-xs-12 col-md-6">
+            <div className="row">
+              <div className="col-xs-12 col-md-5">
+                <h5>Follow Us on</h5>
+                <i className="fa fa-facebook-official" ariaHidden="true" />
+                <i className="fa fa-instagram" ariaHidden="true" />
+                <i className="fa fa-twitter" ariaHidden="true" />
+                <div className="img-wrapper">
+                  <img src="https://static.line.naver.jp/line_regulation/files/ver2/LINE_Icon.png" alt="at Chef Box Delivery's Line" width="30" />
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-3">
+                <div className="box links">
+                  <a>หน้าหลัก</a>
+                  <a>เมนูของเรา</a>
+                  <a>ขั้นตอนการสั่งซื้อ</a>
+                  <a>เข้าสู่ระบบ</a>
+                  <a>สมัครสมาชิค</a>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-3">
+                <div className="box links">
+                  <a>คำถามที่พบบ่อย</a>
+                  <a>Terms & Privacy</a>
+                  <a>เกี่ยวกับเรา</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xs-12 col-md-3">
+            <div className="box watermark">
+              <p>© CHEF BOX DELIVERY 2017, Alright Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 );

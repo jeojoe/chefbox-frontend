@@ -24,6 +24,57 @@
   }
 }
 
+#footer {
+  border-top: 1px solid #ddd;
+  padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  .logo {
+    width: 80px;
+  }
+  h5 {
+    color: var(--mainColor);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .company p {
+    line-height: 1.5;
+    font-size: 13px;
+    color: #555;
+  }
+  .watermark p {
+    line-height: 1;
+    font-size: 13px;
+    color: #555;
+  }
+  .fa {
+    font-size: 32px;
+    margin-right: 10px;
+  }
+  .fa-instagram {
+
+  }
+  .img-wrapper {
+    vertical-align: top;
+    display: inline-block;
+  }
+  .links {
+    padding: 10px 0 0;
+    a {
+      display: block;
+      cursor: pointer;
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-family: 'Mitr';
+      color: var(--mainColor);
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .spacer {
   height: 75px;
 }

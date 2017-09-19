@@ -76,7 +76,7 @@ export default () => (
           </div>
         </div>
         {/* Info 2 */}
-        <div className="row center-xs">
+        <div className="row center-xs" style={{ marginBottom: '40px' }}>
           <div className="col-xs-12 col-sm-6 col-md-5">
             <div className="box">
               <img src="/static/landing-2.jpg" alt="Cooking is Fun !" className="right" />
@@ -90,7 +90,7 @@ export default () => (
           </div>
         </div>
         {/* Info 3 */}
-        <div className="row center-xs info-final">
+        <div className="row center-xs info-final white-bg">
           <div className="col-xs-12 col-md-6">
             <div className="box">
               <h1>สั่งวัตถุดิบที่คุณต้องการ</h1>
