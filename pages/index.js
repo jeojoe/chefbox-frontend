@@ -8,9 +8,9 @@ export default () => (
     <Head><style dangerouslySetInnerHTML={{ __html: stylesheet }} /></Head>
     <Layout title="Chef Box Delivery : Ready to cook right at your home.">
       {/* Banner */}
-      <section className="container white-bg">
+      <section className="white-bg">
         <div className="banner">
-          <h1>Ingredients Delivered<br />to Your Home.</h1>
+          <h1 className="big">Ingredients Delivered<br />to Your Home.</h1>
           <h2>ชุดทำอาหารสำเร็จรูป ส่งตรงถึงบ้านคุณ</h2>
           <div className="enjoy">Just ENJOY COOKING !</div>
           <a className="button accent action">เลือกเมนู {'>'}</a>
