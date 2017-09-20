@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { Layout } from '../components';
+import { Layout, FoodCard } from '../components';
 import stylesheet from '../styles/pages/index.css';
 
 export default () => (
@@ -111,11 +111,17 @@ export default () => (
           <div className="col-xs-11 col-md-10">
             <div className="box">
               <div className="header"><h1>Menu of the Month</h1></div>
-              <h1>sdlfksdlfksdlfk</h1>
-              <h1>sdlfksdlfksdlfk</h1>
-              <h1>sdlfksdlfksdlfk</h1>
-              <h1>sdlfksdlfksdlfk</h1>
-              <h1>sdlfksdlfksdlfk</h1>
+              <div className="row start-xs" style={{ padding: '20px 20px 5px' }}>
+                <div className="col-xs-12 col-md-4">
+                  <FoodCard />
+                </div>
+                <div className="col-xs-12 col-md-4">
+                  <FoodCard />
+                </div>
+                <div className="col-xs-12 col-md-4">
+                  <FoodCard />
+                </div>
+              </div>
             </div>
           </div>
         </div>

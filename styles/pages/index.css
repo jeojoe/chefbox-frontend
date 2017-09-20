@@ -145,4 +145,7 @@
       font-family: 'Mitr',
     }
   }
+  .col-xs-12 {
+    margin-bottom: 15px;
+  }
 }
