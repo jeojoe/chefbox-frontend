@@ -1,0 +1,45 @@
+@import "../_variables.css";
+
+.food-card {
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.08), inset 0px 0px 0px 1px #f0f2f7;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow .2s;
+  &:hover {
+    box-shadow: 0px 1px 6px 2px rgba(0,0,0,0.08), inset 0px 0px 0px 1px #f0f2f7;
+  }
+  .image {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .content {
+    padding: 10px 15px 15px;
+    h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      font-weight: 500px;
+      font-family: 'Mitr';
+      color: var(--mainColor);
+    }
+    h5 {
+      margin: 0 0 20px;
+      font-weight: 400;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #999;
+    }
+    .item {
+      display: inline-block;
+      padding: 7px 10px 5px;
+      margin-right: 10px;
+      background-color: #DEEBFF;
+      color: #11346B;
+      border-radius: 5px;
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}
