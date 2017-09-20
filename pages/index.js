@@ -10,10 +10,12 @@ export default () => (
       {/* Banner */}
       <section className="white-bg">
         <div className="banner">
-          <h1 className="big">Ingredients Delivered<br />to Your Home.</h1>
-          <h2>ชุดทำอาหารสำเร็จรูป ส่งตรงถึงบ้านคุณ</h2>
-          <div className="enjoy">Just ENJOY COOKING !</div>
-          <a className="button accent action">เลือกเมนู {'>'}</a>
+          <div className="content">
+            <h1 className="big">Ingredients Delivered<br />to Your Home.</h1>
+            <h2>ชุดทำอาหารสำเร็จรูป ส่งตรงถึงบ้านคุณ</h2>
+            <div className="enjoy">Just ENJOY COOKING !</div>
+            <a className="button accent action">เลือกเมนู {'>'}</a>
+          </div>
         </div>
       </section>
       {/* Problem */}

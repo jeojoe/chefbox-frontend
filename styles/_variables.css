@@ -6,4 +6,7 @@
   --accentHeavyColor1: #EB3D00;
   --accentColor2: #007D68;
   --buttonRadius: 10px;
+  @custom-media --sm (min-width: 48em);
+  @custom-media --md (min-width: 64em);
+  @custom-media --lg (min-width: 75em);
 }

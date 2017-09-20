@@ -9,7 +9,14 @@
   padding-left: 12%;
   padding-top: 70px;
   padding-right: 10px;
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
   h1 {
+    display: inline-block;
     font-size: 56px;
     color: var(--mainColor);
     font-family: 'Mitr';
@@ -64,12 +71,18 @@
   position: relative;
   z-index: -2;
   .path {
+    display: none;
     z-index: -1;
     position: absolute;
     top: 140px;
     width: 100%;
     text-align: center;
     height: calc(100% - 280px);
+  }
+  @media (--sm) {
+    .path {
+      display: block;
+    }
   }
   .header-box {
     margin: 0 auto;
