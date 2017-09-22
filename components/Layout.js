@@ -21,7 +21,8 @@ const Layout = ({ children, title }) => (
       <div className="container" style={{ height: '100%' }}>
         <div className="row between-xs" style={{ height: '100%' }}>
           <div className="col-xs-5 middle-xs">
-            <div className="box">
+            {/* md */}
+            <div className="box hide-sm">
               <Link href="/menu">
                 <a className="button">
                   <i className="material-icons">restaurant</i>
@@ -35,6 +36,15 @@ const Layout = ({ children, title }) => (
                 </a>
               </Link>
             </div>
+            {/* sm */}
+            <div className="box show-sm">
+              <Link href="/menu">
+                <a className="button">
+                  <i className="material-icons">restaurant</i>
+                  เมนูของเรา
+                </a>
+              </Link>
+            </div>
           </div>
           <div className="col-xs-2 middle-xs center-xs">
             <div className="box">
@@ -44,9 +54,17 @@ const Layout = ({ children, title }) => (
             </div>
           </div>
           <div className="col-xs-5 middle-xs end-xs">
-            <div className="box">
+            <div className="box hide-sm">
               <a className="button">เข้าสู่ระบบ</a>
               <a className="button accent">สมัครสมาชิค</a>
+            </div>
+            <div className="box show-sm">
+              <Link href="/how-to-buy">
+                <a className="button" >
+                  <i className="material-icons">shopping_cart</i>
+                  วิธีการสั่งซื้อ
+                </a>
+              </Link>
             </div>
           </div>
         </div>

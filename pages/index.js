@@ -19,27 +19,27 @@ export default () => (
         </div>
       </section>
       {/* Problem */}
-      <section className="problem">
+      <section className="problem hide-sm">
         <div className="container" style={{ maxWidth: '900px' }}>
-          <div className="row" style={{ padding: '20px 20px 0' }}>
+          <div className="row" style={{ padding: '10px 20px 0' }}>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ~ วัตถุดิบครบครัน ~
+                <span className="hide-sm">~</span> วัตถุดิบครบครัน <span className="hide-sm">~</span>
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ~ ปริมาณพอเหมาะ ~
+                <span className="hide-sm">~</span> ปริมาณพอเหมาะ <span className="hide-sm">~</span>
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ~ การันตีความอร่อย ~
+                <span className="hide-sm">~</span> การันตีความอร่อย <span className="hide-sm">~</span>
               </div>
             </div>
             <div className="col-xs-6 col-sm-3">
               <div className="box">
-                ~ ไม่ทิ้งของเหลือ ~
+                <span className="hide-sm">~</span> ไม่มีของเหลือ <span className="hide-sm">~</span>
               </div>
             </div>
           </div>

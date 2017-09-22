@@ -22,12 +22,21 @@
   .logo {
     width: 70px;
   }
+  .button {
+    font-size: 13px;
+    @media (--sm) {
+      font-size: 16px;
+    }
+  }
 }
 
 #footer {
   border-top: 1px solid #ddd;
-  padding: 40px 0;
+  padding: 40px 20px;
   font-family: Arial, Helvetica, sans-serif;
+  @media (--sm) {
+    padding: 40px 0;
+  }
   .logo {
     width: 80px;
   }

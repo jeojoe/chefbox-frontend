@@ -10,3 +10,20 @@
   @custom-media --md (min-width: 64em);
   @custom-media --lg (min-width: 75em);
 }
+
+.hide-sm {
+  display: none;
+}
+
+.show-sm {
+  display: block;
+}
+
+@media (--sm) {
+  .hide-sm {
+    display: block;
+  }
+  .show-sm {
+    display: none;
+  }
+}
