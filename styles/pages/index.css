@@ -192,7 +192,7 @@
   padding: 130px 0 50px;
   background-image: url('/static/menu-month.jpg');
   background-size: cover;
-  .box {
+  .outer.box {
     background-color: #fff;
     border: 6px solid var(--mainColor);
     position: relative;
