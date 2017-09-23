@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
+import { Link } from '../routes';
 import stylesheet from '../styles/components/Layout.css';
 
 const Layout = ({ children, title }) => (
@@ -9,7 +9,7 @@ const Layout = ({ children, title }) => (
       <title>{ title }</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link href="https://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
+      <link route="ttps://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -23,13 +23,13 @@ const Layout = ({ children, title }) => (
           <div className="col-xs-5 middle-xs">
             {/* md */}
             <div className="box hide-sm">
-              <Link href="/menus">
+              <Link route="menus">
                 <a className="button">
                   <i className="material-icons">restaurant</i>
                   เมนูของเรา
                 </a>
               </Link>
-              <Link href="/how-to-buy">
+              <Link route="how-to-buy">
                 <a className="button" >
                   <i className="material-icons">shopping_cart</i>
                   วิธีการสั่งซื้อ
@@ -38,7 +38,7 @@ const Layout = ({ children, title }) => (
             </div>
             {/* sm */}
             <div className="box show-sm">
-              <Link href="/menu">
+              <Link route="menus">
                 <a className="button">
                   <i className="material-icons">restaurant</i>
                   เมนูของเรา
@@ -48,7 +48,7 @@ const Layout = ({ children, title }) => (
           </div>
           <div className="col-xs-2 middle-xs center-xs">
             <div className="box">
-              <Link href="/">
+              <Link route="/">
                 <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" style={{ cursor: 'pointer' }} />
               </Link>
             </div>
@@ -59,7 +59,7 @@ const Layout = ({ children, title }) => (
               <a className="button accent">สมัครสมาชิค</a>
             </div>
             <div className="box show-sm">
-              <Link href="/how-to-buy">
+              <Link route="how-to-buy">
                 <a className="button" >
                   <i className="material-icons">shopping_cart</i>
                   วิธีการสั่งซื้อ
