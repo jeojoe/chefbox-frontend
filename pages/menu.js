@@ -9,9 +9,12 @@ export default () => (
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     <Layout title="Menu | Chef Box Delivery : Ready to cook right at your home.">
+      {/* Image for Mobile */}
+      <div className="show-sm mobile-image" style={{ backgroundImage: 'url("/static/landing-2.jpg")' }} />
+
       <section className="header">
         <h1>แกงส้มชะอมทอด</h1>
-        <h4>230 B</h4>
+        <h4>230 ฿</h4>
         <div className="contact">สั่งซื้อได้ที่ line : @chefbox.delivery หรือโทรมาที่เบอร์ 092-016-0836</div>
       </section>
 
@@ -46,7 +49,7 @@ export default () => (
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-1" />
-                <div className="col-xs-12 col-sm-6">
+                <div className="col-xs-12 col-sm-6 hide-sm">
                   <img src="/static/landing-2.jpg" alt="1!!!!!! menu-name !!" />
                 </div>
               </div>
@@ -119,7 +122,9 @@ export default () => (
       {/* Call to Action */}
       <section className="container">
         <div className="row center-xs">
-          <CTASection />
+          <div className="col-xs-12">
+            <CTASection />
+          </div>
         </div>
       </section>
     </Layout>
