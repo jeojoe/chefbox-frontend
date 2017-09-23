@@ -23,13 +23,13 @@ const Layout = ({ children, title }) => (
           <div className="col-xs-5 middle-xs">
             {/* md */}
             <div className="box hide-sm">
-              <Link route="menus">
+              <Link route="/menus">
                 <a className="button">
                   <i className="material-icons">restaurant</i>
                   เมนูของเรา
                 </a>
               </Link>
-              <Link route="how-to-buy">
+              <Link route="/how-to-buy">
                 <a className="button" >
                   <i className="material-icons">shopping_cart</i>
                   วิธีการสั่งซื้อ
@@ -38,7 +38,7 @@ const Layout = ({ children, title }) => (
             </div>
             {/* sm */}
             <div className="box show-sm">
-              <Link route="menus">
+              <Link route="/menus">
                 <a className="button">
                   <i className="material-icons">restaurant</i>
                   เมนูของเรา
@@ -59,7 +59,7 @@ const Layout = ({ children, title }) => (
               <a className="button accent">สมัครสมาชิค</a>
             </div>
             <div className="box show-sm">
-              <Link route="how-to-buy">
+              <Link route="/how-to-buy">
                 <a className="button" >
                   <i className="material-icons">shopping_cart</i>
                   วิธีการสั่งซื้อ
