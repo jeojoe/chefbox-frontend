@@ -12,9 +12,6 @@ const CTASection = () => (
     <div className="contact">
       เพียงคุณ add มาที่ line : @chefbox.delivery หรือโทรมาที่เบอร์ 092-016-0836
     </div>
-    <div className="button accent">
-      เลือกเมนู {'>'}
-    </div>
   </div>
 );
 

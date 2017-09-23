@@ -13,18 +13,18 @@
 }
 
 .hide-sm {
-  display: none;
+  display: none !important;
 }
 
 .show-sm {
-  display: block;
+  display: block !important;
 }
 
 @media (--sm) {
   .hide-sm {
-    display: block;
+    display: block !important;
   }
   .show-sm {
-    display: none;
+    display: none !important;
   }
 }
