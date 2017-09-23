@@ -23,7 +23,7 @@ const Layout = ({ children, title }) => (
           <div className="col-xs-5 middle-xs">
             {/* md */}
             <div className="box hide-sm">
-              <Link href="/menu">
+              <Link href="/menus">
                 <a className="button">
                   <i className="material-icons">restaurant</i>
                   เมนูของเรา

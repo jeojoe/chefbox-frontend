@@ -1,6 +1,7 @@
 :root {
   --mainColor: #11346B;
   --mainDarkenColor: color(#11346B blackness(+ 5%));
+  --lightBlueColor: #DEEBFF;
   --accentColor1: #FF7E0B;
   --accentDarkenColor1: color(#FF7E0B blackness(+ 5%));
   --accentHeavyColor1: #EB3D00;
