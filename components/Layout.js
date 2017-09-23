@@ -9,7 +9,7 @@ const Layout = ({ children, title }) => (
       <title>{ title }</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link route="ttps://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
