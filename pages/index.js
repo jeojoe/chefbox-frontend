@@ -107,6 +107,14 @@ export default () => (
           </div>
         </div>
       </section>
+
+      <section className="review container">
+        <div className="row">
+          <div className="col-xs-12 center-xs">
+            <img src="/static/review.jpg" alt="Chefbox Review" width="300" />
+          </div>
+        </div>
+      </section>
       {/* Menu of the month */}
       <section className="menu-month container white-bg">
         <div className="row center-xs">
