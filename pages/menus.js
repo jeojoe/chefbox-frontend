@@ -31,47 +31,27 @@ export default () => (
               <div className="row">
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <Link route="/menu/1234">
-                      <div>
-                        <FoodCard />
-                      </div>
-                    </Link>
+                    <FoodCard />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <Link route="/menu/1234">
-                      <div>
-                        <FoodCard />
-                      </div>
-                    </Link>
+                    <FoodCard />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <Link route="/menu/1234">
-                      <div>
-                        <FoodCard />
-                      </div>
-                    </Link>
+                    <FoodCard />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <Link route="/menu/1234">
-                      <div>
-                        <FoodCard />
-                      </div>
-                    </Link>
+                    <FoodCard />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <Link route="/menu/1234">
-                      <div>
-                        <FoodCard />
-                      </div>
-                    </Link>
+                    <FoodCard />
                   </div>
                 </div>
               </div>
