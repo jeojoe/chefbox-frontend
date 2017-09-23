@@ -91,9 +91,9 @@ const Layout = ({ children, title }) => (
                 {/* <i className="fa fa-facebook-official" ariaHidden="true" />
                 <i className="fa fa-instagram" ariaHidden="true" />
                 <i className="fa fa-twitter" ariaHidden="true" /> */}
-                <div className="img-wrapper">
+                {/* <div className="img-wrapper">
                   <img src="https://static.line.naver.jp/line_regulation/files/ver2/LINE_Icon.png" alt="at Chef Box Delivery's Line" width="30" />
-                </div>
+                </div> */}
               </div>
               <div className="col-xs-12 col-md-3">
                 <div className="box links">

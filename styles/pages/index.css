@@ -177,7 +177,7 @@
   }
 }
 .info-final {
-  padding: 0 0 40px;;
+  padding: 0 0 20px;;
   color: var(--mainColor);
   p {
     font-weight: 300;
@@ -187,6 +187,9 @@
     padding: 12px 15px;
     margin-bottom: 20px;
   }
+}
+.review {
+  padding-bottom: 40px;
 }
 .menu-month {
   padding: 130px 0 50px;
