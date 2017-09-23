@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { Layout, FoodCard, CTASection } from '../components';
+import { Link } from '../routes';
 import stylesheet from '../styles/pages/menus.css';
 
 export default () => (
@@ -30,27 +31,47 @@ export default () => (
               <div className="row">
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <FoodCard />
+                    <Link route="/menu/1234">
+                      <div>
+                        <FoodCard />
+                      </div>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <FoodCard />
+                    <Link route="/menu/1234">
+                      <div>
+                        <FoodCard />
+                      </div>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <FoodCard />
+                    <Link route="/menu/1234">
+                      <div>
+                        <FoodCard />
+                      </div>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <FoodCard />
+                    <Link route="/menu/1234">
+                      <div>
+                        <FoodCard />
+                      </div>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="box">
-                    <FoodCard />
+                    <Link route="/menu/1234">
+                      <div>
+                        <FoodCard />
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>
