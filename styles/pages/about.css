@@ -1,0 +1,48 @@
+@import "../_variables.css";
+
+#about-page {
+  .header {
+    padding-top: 50px;
+    img {
+      width: 100px;
+    }
+    h1 {
+      font-family: 'Mitr';
+      color: var(--mainColor);
+    }
+    p {
+      font-family: 'Mitr';
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--mainColor);
+    }
+  }
+  
+  .detail {
+    padding-top: 20px;
+    &.last {
+      margin: 20px 0 19px;
+    }
+    .head-box {
+      border: 3px solid var(--mainColor);
+      padding: 10px;
+      font-family: 'Mitr';
+      color: var(--mainColor);
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: 'Mitr';
+      margin: 0;
+      color: var(--mainColor);
+      font-weight: 300;
+      line-height: 1.7;
+      margin-bottom: 10px;
+    }
+    p.head {
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+}
