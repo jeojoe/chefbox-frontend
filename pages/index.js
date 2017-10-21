@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { Layout, FoodCard } from '../components';
+import { Link } from '../routes';
 import stylesheet from '../styles/pages/index.css';
 
 export default () => (
@@ -14,7 +15,9 @@ export default () => (
             <h1 className="big">Ingredients Delivered<br />to Your Home.</h1>
             <h2>ชุดทำอาหารสำเร็จรูป ส่งตรงถึงบ้านคุณ</h2>
             <div className="enjoy">Just ENJOY COOKING !</div>
-            <a className="button accent action">เลือกเมนู {'>'}</a>
+            <Link route="/menus">
+              <a className="button accent action">เลือกเมนู {'>'}</a>
+            </Link>
           </div>
         </div>
       </section>
@@ -99,9 +102,6 @@ export default () => (
               <p>วัตถุดิบจะถูกส่งถึงมือคุณในวันถัดไป</p>
               <div className="contact">
                 เพียงคุณ add มาที่ line : @chefbox.delivery หรือโทรมาที่เบอร์ 092-016-0836
-              </div>
-              <div className="button accent">
-                เลือกเมนู {'>'}
               </div>
             </div>
           </div>

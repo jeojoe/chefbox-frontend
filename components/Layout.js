@@ -97,9 +97,15 @@ const Layout = ({ children, title }) => (
               </div>
               <div className="col-xs-12 col-md-3">
                 <div className="box links">
-                  <a>หน้าหลัก</a>
-                  <a>เมนูของเรา</a>
-                  <a>ขั้นตอนการสั่งซื้อ</a>
+                  <Link route="/">
+                    <a>หน้าหลัก</a>
+                  </Link>
+                  <Link route="/menus">
+                    <a>เมนูของเรา</a>
+                  </Link>
+                  <Link route="/how-to-buy">
+                    <a>ขั้นตอนการสั่งซื้อ</a>
+                  </Link>
                   <a>เข้าสู่ระบบ</a>
                   <a>สมัครสมาชิค</a>
                 </div>
@@ -108,7 +114,9 @@ const Layout = ({ children, title }) => (
                 <div className="box links">
                   <a>คำถามที่พบบ่อย</a>
                   <a>Terms & Privacy</a>
-                  <a>เกี่ยวกับเรา</a>
+                  <Link route="/about">
+                    <a>เกี่ยวกับเรา</a>
+                  </Link>
                   <p>© CHEF BOX DELIVERY 2017</p>
                 </div>
               </div>
