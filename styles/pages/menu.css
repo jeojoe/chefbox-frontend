@@ -125,10 +125,8 @@
       display: block;
       margin: 0 auto;
       width: 100%;
-      margin-bottom: 10px;
-      @media (--sm) {
-        width: 80%;
-      }
+      margin-bottom: 20px;
+      border-radius: 5px;
     }
     h2 {
       font-size: 36px;
@@ -149,5 +147,14 @@
       margin: 0 0 24px;
       font-weight: 300;
     }
+  }
+  .section-header {
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Mitr';
+    padding: 0 10px 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 5px 0 20px;
+    color: var(--mainColor);
   }
 }
