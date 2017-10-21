@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { Layout, CTASection } from '../components';
+import { Layout, CTASection, InstructionCard } from '../components';
 import stylesheet from '../styles/pages/menu.css';
 
 export default () => (
@@ -13,7 +13,7 @@ export default () => (
       <div className="show-sm mobile-image" style={{ backgroundImage: 'url("/static/landing-2.jpg")' }} />
 
       <section className="header">
-        <h1>แกงส้มชะอมทอด</h1>
+        <h1>สปาเก็ตตี้ คาโบนาร่า</h1>
         <h4>230 ฿</h4>
         <div className="contact">สั่งซื้อได้ที่ line : @chefbox.delivery หรือโทรมาที่เบอร์ 092-016-0836</div>
       </section>
@@ -50,7 +50,7 @@ export default () => (
                 </div>
                 <div className="col-xs-12 col-sm-1" />
                 <div className="col-xs-12 col-sm-6 hide-sm">
-                  <img src="/static/landing-2.jpg" alt="1!!!!!! menu-name !!" />
+                  <img src="/static/menu.jpg" alt="1!!!!!! menu-name !!" />
                 </div>
               </div>
             </div>
@@ -89,26 +89,42 @@ export default () => (
                   <div className="ingredients-detail">
                     <h2>วัตถุดิบทั้งหมด</h2>
                     <img src="/static/ingredients.png" alt="ingredients" />
-                    <div className="row">
+                    <div className="row" style={{ padding: '0 15px' }} >
                       <div className="col-xs-6 col-md-4">
-                        <h5 className="ingreds-name">dinosaur kale</h5>
-                        <p className="ingreds-amount">2 กรัม</p>
+                        <h5 className="ingreds-name">เส้นสปาเก็ตตี้</h5>
+                        <p className="ingreds-amount">200 กรัม</p>
                       </div>
                       <div className="col-xs-6 col-md-4">
-                        <h5 className="ingreds-name">dinosaur kale</h5>
-                        <p className="ingreds-amount">2 กรัม</p>
+                        <h5 className="ingreds-name">เบคอน</h5>
+                        <p className="ingreds-amount">80 กรัม</p>
                       </div>
                       <div className="col-xs-6 col-md-4">
-                        <h5 className="ingreds-name">dinosaur kale</h5>
-                        <p className="ingreds-amount">2 กรัม</p>
+                        <h5 className="ingreds-name">พาเมซานชีสขูด</h5>
+                        <p className="ingreds-amount">40 กรัม</p>
                       </div>
                       <div className="col-xs-6 col-md-4">
-                        <h5 className="ingreds-name">dinosaur kale</h5>
-                        <p className="ingreds-amount">2 กรัม</p>
+                        <h5 className="ingreds-name">ไข่แดง</h5>
+                        <p className="ingreds-amount">2 ฟอง</p>
                       </div>
                       <div className="col-xs-6 col-md-4">
-                        <h5 className="ingreds-name">dinosaur kale</h5>
-                        <p className="ingreds-amount">2 กรัม</p>
+                        <h5 className="ingreds-name">วิปปิ้งครีม</h5>
+                        <p className="ingreds-amount">200 กรัม</p>
+                      </div>
+                      <div className="col-xs-6 col-md-4">
+                        <h5 className="ingreds-name">กระเทียม</h5>
+                        <p className="ingreds-amount">5 กลีบ</p>
+                      </div>
+                      <div className="col-xs-6 col-md-4">
+                        <h5 className="ingreds-name">หัวหอมใหญ่</h5>
+                        <p className="ingreds-amount">1 ลูก</p>
+                      </div>
+                      <div className="col-xs-6 col-md-4">
+                        <h5 className="ingreds-name">เกลือ</h5>
+                        <p className="ingreds-amount"></p>
+                      </div>
+                      <div className="col-xs-6 col-md-4">
+                        <h5 className="ingreds-name">พาสเลย์</h5>
+                        <p className="ingreds-amount"></p>
                       </div>
                     </div>
                   </div>
@@ -119,6 +135,31 @@ export default () => (
         </div>
       </section>
 
+      <section className="instruction">
+        <div className="container">
+          <h2 className="section-header">วิธีทำอาหาร</h2>
+          <div className="row">
+            <div className="col-xs-12 col-md-6">
+              <InstructionCard />
+            </div>
+            <div className="col-xs-12 col-md-6">
+              <InstructionCard />
+            </div>
+            <div className="col-xs-12 col-md-6">
+              <InstructionCard />
+            </div>
+            <div className="col-xs-12 col-md-6">
+              <InstructionCard />
+            </div>
+            <div className="col-xs-12 col-md-6">
+              <InstructionCard />
+            </div>
+            <div className="col-xs-12 col-md-6">
+              <InstructionCard />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Call to Action */}
       <section className="container">
         <div className="row center-xs">

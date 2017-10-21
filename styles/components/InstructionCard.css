@@ -1,0 +1,23 @@
+@import '../_variables.css';
+
+.instruction-card {
+  padding: 10px 15px;
+  word-break: break-word;
+  color: var(--mainColor);
+  font-family: 'Mitr';
+  margin-bottom: 15px;
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  h3 {
+    padding: 0 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+  }
+  p {
+    padding: 0 12px;
+    line-height: 1.7;
+    font-weight: 300;
+  }
+}
