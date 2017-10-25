@@ -1,0 +1,18 @@
+import * as API from './API';
+
+export function getToken() {
+  return window.localStorage.getItem('@chefbox-token');
+}
+
+export async function login(email, password, settings) {
+  console.log(email, password, settings);
+  return API.post('login', { email, password, ...settings })
+    .then(({ data }) => data.token)
+    .catch(err => console.log(err));
+}
+
+export function register(email, password) {
+  return API.post('register', {
+    email, password,
+  });
+}
