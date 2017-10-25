@@ -6,9 +6,7 @@ export function getToken() {
 
 export async function login(email, password, settings) {
   console.log(email, password, settings);
-  return API.post('login', { email, password, ...settings })
-    .then(({ data }) => data.token)
-    .catch(err => console.log(err));
+  return API.post('login', { email, password, ...settings });
 }
 
 export function register(email, password) {

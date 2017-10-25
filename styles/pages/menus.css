@@ -9,6 +9,7 @@
     position: relative;
     .overlay {
       background-color: rgba(255, 255, 255, 0.75);
+      background: linear-gradient(#ffffff50, #fff);
     }
     .content {
       padding-top: 30px;
