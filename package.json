@@ -12,10 +12,12 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "axios": "^0.17.0",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-wrap-in-js": "^1.1.1",
     "cssnano": "^3.10.0",
     "glob": "^7.1.2",
+    "jsonwebtoken": "^8.1.0",
     "next": "^3.2.2",
     "next-routes": "^1.0.40",
     "postcss-cssnext": "^3.0.2",
