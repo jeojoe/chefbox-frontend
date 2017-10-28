@@ -1,7 +1,23 @@
 import React from 'react';
 import Head from 'next/head';
+import NProgress from 'nprogress';
+import Router from 'next/router';
 import { Link } from '../routes';
 import stylesheet from '../styles/components/Layout.css';
+
+NProgress.configure({ showSpinner: false });
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
+
+Router.onRouteChangeComplete = () => {
+  NProgress.done();
+};
+
+Router.onRouteChangeError = () => {
+  NProgress.done();
+};
 
 const Layout = ({ children, title }) => (
   <div>
@@ -13,6 +29,7 @@ const Layout = ({ children, title }) => (
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
       {/* <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> */}
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
