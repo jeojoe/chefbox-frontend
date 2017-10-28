@@ -1,0 +1,27 @@
+@import '../_variables.css';
+
+.login-wrapper {
+  text-align: center;
+  width: 320px;
+  padding: 30px 0;
+  .header {
+    font-family: 'Mitr';
+    color: var(--mainColor);
+    font-size: 40px;
+  }
+  .text {
+    font-family: 'Mitr';
+    color: var(--mainColor);
+    margin-bottom: 40px;
+  }
+  .header.white, .text.white {
+    color: #fff;
+  }
+  .form-control {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .btn-success {
+    margin-top: 20px;
+  }
+}

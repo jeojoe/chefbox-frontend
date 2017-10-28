@@ -72,8 +72,12 @@ const Layout = ({ children, title }) => (
           </div>
           <div className="col-xs-5 middle-xs end-xs">
             <div className="box hide-sm">
-              <a className="button">เข้าสู่ระบบ</a>
-              <a className="button accent">สมัครสมาชิค</a>
+              <Link route="/login">
+                <a className="button">เข้าสู่ระบบ</a>
+              </Link>
+              <Link route="/register">
+                <a className="button accent">สมัครสมาชิค</a>
+              </Link>
             </div>
             <div className="box show-sm">
               <Link route="/how-to-buy">
