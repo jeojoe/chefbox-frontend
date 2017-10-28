@@ -78,6 +78,12 @@ const Layout = ({ children, title }) => (
                   เมนูของเรา
                 </a>
               </Link>
+              <Link route="/about">
+                <a className="button">
+                  <i className="material-icons">help</i>
+                  Chefbox คืออะไร?
+                </a>
+              </Link>
               {/* <Link route="/how-to-buy">
                 <a className="button" >
                   <i className="material-icons">shopping_cart</i>
