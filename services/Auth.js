@@ -4,8 +4,9 @@ export function getToken() {
   return window.localStorage.getItem('@chefbox-token');
 }
 
-export function setToken(token) {
-  return window.localStorage.setItem('@chefbox-token', token);
+// hack hia
+export function setEmail(email) {
+  return window.localStorage.setItem('@chefbox-email', email);
 }
 
 export async function login(email, password, settings) {

@@ -1,15 +1,34 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
+import Router from 'next/router';
 import { Layout } from '../components';
 import stylesheet from '../styles/pages/login.css';
+import { Auth } from '../services';
 
 class Login extends Component {
   state = {
     email: '',
     password: '',
+    submitting: false,
+  }
+  _submit = () => {
+    const { email, password } = this.state;
+
+    this.setState({ submitting: true });
+    Auth.login(email, password)
+      .then((res) => {
+        Auth.setEmail(res.data.token);
+        Router.replace('/');
+        setTimeout(() => window.location.reload(), 1000);
+        this.setState({ submitting: false });
+      })
+      .catch((err) => {
+        window.alert(err.response.data);
+        this.setState({ submitting: false });
+      });
   }
   render() {
-    const { email, password } = this.state;
+    const { email, password, submitting } = this.state;
 
     return (
       <Layout title="Login | Chef Box Delivery : Ready to cook right at your home.">
@@ -33,9 +52,9 @@ class Login extends Component {
                   value={password} className="form-control"
                   onChange={e => this.setState({ password: e.target.value })}
                 />
-                <div className="btn btn-success">
-                  เข้าสู่ระบบ
-                </div>
+                <button className="btn btn-success" onClick={this._submit}>
+                  {submitting ? 'กำลังเข้าสู่ระบบ...' : 'เข้าสู่ระบบ'}
+                </button>
               </div>
             </div>
             {/* <div className="col-md-1 justify-content-center align-items-center d-flex">หรือ</div>

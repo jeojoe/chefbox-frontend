@@ -19,6 +19,38 @@ Router.onRouteChangeError = () => {
   NProgress.done();
 };
 
+class AuthMenu extends React.Component {
+  state = {
+    email: '',
+    isLoggedIn: false,
+  }
+  componentDidMount() {
+    const email = window.localStorage.getItem('@chefbox-email');
+    if (email) this.setState({ isLoggedIn: true, email });
+  }
+  render() {
+    const { isLoggedIn } = this.state;
+
+    if (isLoggedIn) {
+      return (
+        <div className="box hide-sm" style={{ fontFamily: 'Mitr', textOverflow: 'ellipsis', width: '200px' }}>
+          Hi, {window.localStorage.getItem('@chefbox-email')}
+        </div>
+      );
+    }
+    return (
+      <div className="box hide-sm">
+        <Link route="/login">
+          <a className="button">เข้าสู่ระบบ</a>
+        </Link>
+        <Link route="/register">
+          <a className="button accent">สมัครสมาชิค</a>
+        </Link>
+      </div>
+    );
+  }
+}
+
 const Layout = ({ children, title }) => (
   <div>
     <Head>
@@ -46,12 +78,12 @@ const Layout = ({ children, title }) => (
                   เมนูของเรา
                 </a>
               </Link>
-              <Link route="/how-to-buy">
+              {/* <Link route="/how-to-buy">
                 <a className="button" >
                   <i className="material-icons">shopping_cart</i>
                   วิธีการสั่งซื้อ
                 </a>
-              </Link>
+              </Link> */}
             </div>
             {/* sm */}
             <div className="box show-sm">
@@ -71,17 +103,10 @@ const Layout = ({ children, title }) => (
             </div>
           </div>
           <div className="col-xs-5 middle-xs end-xs">
-            <div className="box hide-sm">
-              <Link route="/login">
-                <a className="button">เข้าสู่ระบบ</a>
-              </Link>
-              <Link route="/register">
-                <a className="button accent">สมัครสมาชิค</a>
-              </Link>
-            </div>
-            <div className="box show-sm">
+            {/* <AuthMenu /> */}
+            <div className="box">
               <Link route="/how-to-buy">
-                <a className="button" >
+                <a className="button accent">
                   <i className="material-icons">shopping_cart</i>
                   วิธีการสั่งซื้อ
                 </a>
