@@ -4,8 +4,11 @@ export function getToken() {
   return window.localStorage.getItem('@chefbox-token');
 }
 
+export function setToken(token) {
+  return window.localStorage.setItem('@chefbox-token', token);
+}
+
 export async function login(email, password, settings) {
-  console.log(email, password, settings);
   return API.post('login', { email, password, ...settings });
 }
 
