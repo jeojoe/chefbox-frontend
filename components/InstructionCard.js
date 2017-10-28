@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import stylesheet from '../styles/components/InstructionCard.css';
 
-const InstructionCard = ({ instruction }) => (
+const InstructionCard = ({ image, title, description, onDelete }) => (
   <div className="instruction-card">
     <Head>
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
