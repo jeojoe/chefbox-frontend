@@ -1,10 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
+
 import { Layout, FoodCard } from '../components';
 import { Link } from '../routes';
+import { withAnalytics } from '../utils';
+
 import stylesheet from '../styles/pages/index.css';
 
-export default () => (
+const Index = () => (
   <div>
     <Head><style dangerouslySetInnerHTML={{ __html: stylesheet }} /></Head>
     <Layout title="Chef Box Delivery : Ready to cook right at your home.">
@@ -145,3 +148,5 @@ export default () => (
     </Layout>
   </div>
 );
+
+export default withAnalytics(Index);
