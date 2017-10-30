@@ -27,7 +27,8 @@
     "postcss-nested": "^2.1.2",
     "raw-loader": "^0.5.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-ga": "^2.3.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
