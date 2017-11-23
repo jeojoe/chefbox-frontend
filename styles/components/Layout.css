@@ -107,7 +107,7 @@ div {
   padding: 7px 15px;
   border-radius: var(--buttonRadius);
   background-color: var(--accentColor1);
-  border: 1px solid var(--accentHeavyColor1);
+  // border: 1px solid var(--accentHeavyColor1);
 }
 .button.accent:hover {
   text-decoration: none;
