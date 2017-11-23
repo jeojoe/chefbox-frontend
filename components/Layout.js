@@ -58,8 +58,9 @@ const Layout = ({ children, title }) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link href="https://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
-      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
+      {/* <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" /> */}
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
       {/* <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> */}
@@ -69,8 +70,13 @@ const Layout = ({ children, title }) => (
     <nav id="nav">
       <div className="container" style={{ height: '100%' }}>
         <div className="row between-xs" style={{ height: '100%' }}>
-          <div className="col-xs-5 middle-xs">
+          <div className="col-xs-5 middle-xs" style={{ paddingLeft: '50px' }}>
             {/* md */}
+            <div className="box" style={{ marginRight: '20px' }}>
+              <Link route="/">
+                <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" style={{ cursor: 'pointer' }} />
+              </Link>
+            </div>
             <div className="box hide-sm">
               <Link route="/menus">
                 <a className="button">
@@ -81,7 +87,7 @@ const Layout = ({ children, title }) => (
               <Link route="/about">
                 <a className="button">
                   <i className="material-icons">help</i>
-                  Chefbox คืออะไร?
+                  เกี่ยวกับเรา
                 </a>
               </Link>
               {/* <Link route="/how-to-buy">
@@ -101,16 +107,9 @@ const Layout = ({ children, title }) => (
               </Link>
             </div>
           </div>
-          <div className="col-xs-2 middle-xs center-xs">
-            <div className="box">
-              <Link route="/">
-                <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" style={{ cursor: 'pointer' }} />
-              </Link>
-            </div>
-          </div>
           <div className="col-xs-5 middle-xs end-xs">
             {/* <AuthMenu /> */}
-            <div className="box">
+            <div className="box" style={{ paddingRight: '20px' }}>
               <Link route="/how-to-buy">
                 <a className="button accent">
                   <i className="material-icons">shopping_cart</i>
