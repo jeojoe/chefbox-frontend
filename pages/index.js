@@ -19,6 +19,60 @@ const Index = () => (
         </div>
       </section>
 
+      {/* Keys */}
+      <section className="keys">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-10">
+              <div className="row">
+                <div className="col-12 col-md-6 box">
+                  <div className="icon">
+                    <i className="material-icons">shopping_cart</i>
+                  </div>
+                  <h2>สะดวก</h2>
+                  <p>ไม่ต้องฝ่าร้อน ฝ่ารถติดไปซื้อวัตถุดิบไกลๆ เราจัดหาไว้ให้คุณครบแล้ว</p>
+                </div>
+                <div className="col-12 col-md-6 box">
+                  <div className="icon">
+                    <i className="material-icons">restaurant</i>
+                  </div>
+                  <h2>อร่อย</h2>
+                  <p>วัตถุดิบและเครื่องปรุงทุกอย่าง ได้ถูกช่างตวงไว้อย่างพอเหมาะ เพื่อความอร่อยที่ลงตัว สามารถนำไปประกอบอาหารได้ทันที</p>
+                </div>
+                <div className="col-12 col-md-6 box">
+                  <div className="icon">
+                    <i className="material-icons">attach_money</i>
+                  </div>
+                  <h2>ประหยัด</h2>
+                  <p>ไม่ต้องจ่ายเงินสำหรับการซื้อเครื่องปรุงทั้งขวด ที่ราคาเท่าข้าวทั้งจาน แต่ใช้เพียงนิดเดียวอีกต่อไป</p>
+                </div>
+                <div className="col-12 col-md-6 box">
+                  <div className="icon">
+                    <i className="material-icons">delete</i>
+                  </div>
+                  <h2>เก็บกวาดง่าย</h2>
+                  <p>แทบจะไม่มีอะไรเหลือให้ทิ้ง เพราะทุกอย่างถูกจัดมาแบบพอดี ไม่ต้องมานั่งเสียดายของเหลืออีกต่อไป</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Menu of the month */}
+      <section className="menu-month container white-bg">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <img />
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="box">
+              <h2>มีไรบ้างในกล่องของ Chefbox</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <section className="review container">
         <div className="row">
           <div className="col-xs-12 center-xs">
@@ -26,33 +80,7 @@ const Index = () => (
           </div>
         </div>
       </section>
-      {/* Menu of the month */}
-      <section className="menu-month container white-bg">
-        <div className="row center-xs">
-          <div className="col-xs-11 col-md-10">
-            <div className="box outer">
-              <div className="header"><h1>Menu of the Month</h1></div>
-              <div className="row start-xs" style={{ padding: '20px 20px 5px' }}>
-                <div className="col-xs-12 col-md-4">
-                  <div className="box" style={{ padding: '0 5px' }}>
-                    <FoodCard />
-                  </div>
-                </div>
-                <div className="col-xs-12 col-md-4">
-                  <div className="box" style={{ padding: '0 5px' }}>
-                    <FoodCard />
-                  </div>
-                </div>
-                <div className="col-xs-12 col-md-4">
-                  <div className="box" style={{ padding: '0 5px' }}>
-                    <FoodCard />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </Layout>
   </div>
 );

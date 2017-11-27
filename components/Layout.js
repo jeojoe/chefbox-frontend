@@ -67,57 +67,32 @@ const Layout = ({ children, title }) => (
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     {/* Navbar */}
-    <nav id="nav">
-      <div className="container" style={{ height: '100%' }}>
-        <div className="row between-xs" style={{ height: '100%' }}>
-          <div className="col-xs-5 middle-xs" style={{ paddingLeft: '50px' }}>
-            {/* md */}
-            <div className="box" style={{ marginRight: '20px' }}>
-              <Link route="/">
-                <img src="/static/logo.png" className="logo" alt="Chefbox Delivery : Ready to Cook" style={{ cursor: 'pointer' }} />
-              </Link>
-            </div>
-            <div className="box hide-sm">
-              <Link route="/menus">
-                <a className="button">
-                  <i className="material-icons">restaurant</i>
-                  เมนูของเรา
-                </a>
-              </Link>
-              <Link route="/about">
-                <a className="button">
-                  <i className="material-icons">help</i>
-                  เกี่ยวกับเรา
-                </a>
-              </Link>
-              {/* <Link route="/how-to-buy">
-                <a className="button" >
-                  <i className="material-icons">shopping_cart</i>
-                  วิธีการสั่งซื้อ
-                </a>
-              </Link> */}
-            </div>
-            {/* sm */}
-            <div className="box show-sm">
-              <Link route="/menus">
-                <a className="button">
-                  <i className="material-icons">restaurant</i>
-                  เมนูของเรา
-                </a>
-              </Link>
-            </div>
+    <nav id="nav" className="d-flex align-items-center">
+      <div className="container d-flex justify-content-between">
+        <div className="left d-flex align-items-center">
+          <Link route="/">
+            <img src="/static/logo.png" height="65" alt="Chefbox Delivery Logo" className="logo" />
+          </Link>
+          <div className="hide-sm">
+            <Link route="/menus">
+              <a className="button">
+                เมนูของเรา
+              </a>
+            </Link>
+            <Link route="/about" className="hide-md">
+              <a className="button">
+                เกี่ยวกับเรา
+              </a>
+            </Link>
           </div>
-          <div className="col-xs-5 middle-xs end-xs">
-            {/* <AuthMenu /> */}
-            <div className="box" style={{ paddingRight: '20px' }}>
-              <Link route="/how-to-buy">
-                <a className="button accent">
-                  <i className="material-icons">shopping_cart</i>
-                  วิธีการสั่งซื้อ
-                </a>
-              </Link>
-            </div>
-          </div>
+        </div>
+        <div className="right d-flex align-items-center">
+          <Link route="/how-to-buy">
+            <a className="button accent">
+              <i className="material-icons">shopping_cart</i>
+              วิธีการสั่งซื้อ
+            </a>
+          </Link>
         </div>
       </div>
     </nav>
