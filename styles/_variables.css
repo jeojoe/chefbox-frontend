@@ -33,3 +33,7 @@
   font-family: 'Mitr';
   font-weight: 400;
 }
+
+.main-color-font {
+  color: var(--mainColor);
+}
