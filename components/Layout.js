@@ -5,6 +5,7 @@ import Router from 'next/router';
 import { Link } from '../routes';
 import stylesheet from '../styles/components/Layout.css';
 
+
 NProgress.configure({ showSpinner: false });
 
 Router.onRouteChangeStart = (url) => {

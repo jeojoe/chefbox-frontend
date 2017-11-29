@@ -3,11 +3,13 @@ import Layout from './Layout';
 import FoodCard from './FoodCard';
 import CTASection from './CTASection';
 import InstructionCard from './InstructionCard';
+import ReviewCarousel from './ReviewCarousel';
 
 // Admin
 import LayoutAdmin from './admin/LayoutAdmin';
 import AdminMenus from './admin/MenusAdmin';
 import IngredientAdmin from './admin/IngredientCardAdmin';
+
 
 export {
   Footer,
@@ -18,4 +20,5 @@ export {
   InstructionCard,
   AdminMenus,
   IngredientAdmin,
+  ReviewCarousel,
 };

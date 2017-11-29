@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import { Layout, FoodCard } from '../components';
+import { Layout, FoodCard, ReviewCarousel } from '../components';
 import { Link } from '../routes';
 import { withAnalytics } from '../utils';
 
@@ -60,27 +60,77 @@ const Index = () => (
       </section>
 
       {/* Menu of the month */}
-      <section className="menu-month container white-bg">
-        <div className="row">
-          <div className="col-12 col-md-6">
-            <img />
-          </div>
-          <div className="col-12 col-md-6">
-            <div className="box">
-              <h2>มีไรบ้างในกล่องของ Chefbox</h2>
+      <section className="menu-month white-bg">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6">
+              <img />
+            </div>
+            <div className="col-12 col-md-6">
+              <div className="box">
+                <h2>มีไรบ้างในกล่องของ<br />Chefbox</h2>
+                <div className="items">
+                  <div className="item">
+                    <i className="material-icons">restaurant_menu</i>
+                    <p>สูตรอาหารที่สามารถทำตามได้ง่ายๆ</p>
+                  </div>
+                  <div className="item">
+                    <i className="material-icons">restaurant_menu</i>
+                    <p>วัตถุดิบสดใหม่ที่ถูกคัดสรรมาอย่างดี บรรจุแยกกันอย่างเป็นสัดส่วน</p>
+                  </div>
+                  <div className="item">
+                    <i className="material-icons">restaurant_menu</i>
+                    <p>สามารถนำเข้าแช่ตู้เย็นได้อย่างไม่มีปัญหา</p>
+                  </div>
+                  <div className="item">
+                    <i className="material-icons">restaurant_menu</i>
+                    <p>ความสนุกที่จะทำให้คุณรู้สึกหยุดไม่ได้</p>
+                  </div>
+                  <div className="d-flex justify-content-center" style={{ padding: '19px' }}>
+                    <Link route="/menus">
+                      <button type="button" className="btn ">เลือกเมนูที่คุณชอบ</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="review container">
-        <div className="row">
-          <div className="col-xs-12 center-xs">
-            <img src="/static/review.jpg" alt="Chefbox Review" width="300" />
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-9">
+            <h1 className="h-eng">รีวิวจากเชฟมือใหม่</h1>
+            <h4 className="h-th">#chefboxfamily</h4>
+            <ReviewCarousel />
           </div>
         </div>
       </section>
-      
+
+      {/* <section className="social container">
+        <h1 className="h-eng fancy-font"></h1>
+        <h4 className="h-th fancy-font">#chefboxfamily</h4>
+        <div className="row">
+          <div className="col-12 col-md-4">
+            <img src="/static/line.png" />
+            <p></p>
+          </div>
+          <div className="col-12 col-md-4">
+            <img src="/static/line.png" />
+          </div>
+          <div className="col-12 col-md-4">
+            <img src="/static/line.png" />
+          </div>
+        </div>
+      </section> */}
+
+      <section className="cta">
+        {/* <h3 className="fancy-font mb-3">คุณก็สามารถทำอาหารดีๆทานเองได้ที่บ้าน</h3> */}
+        <Link to="/menus">
+          <button className="btn fancy-font btn-lg">เข้ามาดูเมนูก่อน</button>
+        </Link>
+      </section>
     </Layout>
   </div>
 );
