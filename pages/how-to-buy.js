@@ -10,11 +10,7 @@ export default () => (
     </Head>
     <Layout title="How to Buy | Chef Box Delivery : Ready to cook right at your home.">
       <div className="container">
-        <div className="row" style={{ justifyContent: 'center' }}>
-          <div className="col-xs-11 col-md-8">
-            <h1>วิธีการสั่งซื้อ</h1>
-          </div>
-        </div>
+        <h1 style={{ textAlign: 'center' }}>วิธีการสั่งซื้อ</h1>
         <div className="row step-wrapper" style={{ justifyContent: 'center' }}>
           <div className="col-xs-11 col-md-8">
             <div className="step">

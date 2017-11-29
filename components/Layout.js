@@ -74,7 +74,7 @@ const Layout = ({ children, title }) => (
           <Link route="/">
             <img src="/static/logo.png" height="65" alt="Chefbox Delivery Logo" className="logo" />
           </Link>
-          <div className="hide-sm">
+          <div className="hide-sm btn-wrapper">
             <Link route="/menus">
               <a className="button">
                 เมนูของเรา
