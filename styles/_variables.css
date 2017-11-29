@@ -28,3 +28,7 @@
     display: none !important;
   }
 }
+
+.fancy-font {
+  font-family: 'Mitr';
+}
