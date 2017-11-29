@@ -12,18 +12,13 @@ export default () => (
     <Layout title="Menu | Chef Box Delivery : Ready to cook right at your home.">
       <section className="header">
         <div className="overlay">
-          <div className="container">
-            <div className="row center-xs" style={{ justifyContent: 'center' }}>
-              <div className="col-xs-9">
-                <div className="content box">
-                  <h1>Menus Today</h1>
-                  <h3>เมนูประจำวันนี้</h3>
-                </div>
-              </div>
-            </div>
+          <div style={{ textAlign: 'center' }}>
+            <h1>Menus Today</h1>
+            <h3>เมนูประจำวันนี้</h3>
           </div>
         </div>
       </section>
+
       <section className="container">
         <div className="menus">
           <div className="row" style={{ justifyContent: 'center' }}>
@@ -56,11 +51,6 @@ export default () => (
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="row center-xs">
-          <div className="col-xs-12 col-md-6">
-            <CTASection />
           </div>
         </div>
       </section>
