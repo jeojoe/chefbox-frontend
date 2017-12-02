@@ -29,7 +29,7 @@ export default class extends Component {
                   <button
                     className="btn btn-link"
                   >
-                    <p>How it works</p>
+                    <p>More Details</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -45,7 +45,7 @@ export default class extends Component {
                   <button
                     className="btn btn-link"
                   >
-                    <p>How it works</p>
+                    <p>More Details</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -61,7 +61,7 @@ export default class extends Component {
                   <button
                     className="btn btn-link"
                   >
-                    <p>How it works</p>
+                    <p>More Details</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -77,7 +77,7 @@ export default class extends Component {
                   <button
                     className="btn btn-link"
                   >
-                    <p>How it works</p>
+                    <p>More Details</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -117,7 +117,7 @@ export default class extends Component {
                 <div
                   className="step-detail row"
                 >
-                  <div className="col-12 col-md-7">
+                  <div className="col-12 col-md-7 order-2 order-md-1">
                     <div className="text">
                       <h2 className="fancy-font mb-4">เมนูสูตรอาหาร และวัตถุดิบ</h2>
                       <div className="items">
@@ -153,7 +153,7 @@ export default class extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-md-5">
+                  <div className="col-12 col-md-5 order-1 order-md-2">
                     <img src="/static/how-to-buy/step-2.jpg" alt="Chefbox: how to buy step 2" style={{ width: '100%' }} />
                   </div>
                 </div>
@@ -202,7 +202,7 @@ export default class extends Component {
                   ref={(dom) => { this.step4 = dom; }}
                   className="step-detail row"
                 >
-                  <div className="col-12 col-md-7">
+                  <div className="col-12 col-md-7 order-2 order-md-1">
                     <div className="text">
                       <h2 className="fancy-font mb-4">บริการหลังการขาย</h2>
                       <p>ถ้าคุณมีคำถาม หรือปัญหาเกี่ยวกับ สูตรอาหาร  เทคนิคการทำอาหาร อุปกรณ์ทางเลือกอื่นๆ สามารถติดต่อสอบถามทีมช่วยเหลือของเราได้ ในเวลา 09.00-18.00 พวกเรา Chefbox ยินดีให้บริการ</p>
@@ -219,7 +219,7 @@ export default class extends Component {
                       </Link>
                     </div>
                   </div>
-                  <div className="col-12 col-md-5">
+                  <div className="col-12 col-md-5 order-1 order-md-2">
                     <img src="/static/how-to-buy/step-4.jpg" alt="Chefbox: how to buy step 3" style={{ width: '100%' }} />
                   </div>
                 </div>
