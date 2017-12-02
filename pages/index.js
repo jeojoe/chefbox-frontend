@@ -108,27 +108,10 @@ const Index = () => (
         </div>
       </section>
 
-      {/* <section className="social container">
-        <h1 className="h-eng fancy-font"></h1>
-        <h4 className="h-th fancy-font">#chefboxfamily</h4>
-        <div className="row">
-          <div className="col-12 col-md-4">
-            <img src="/static/line.png" />
-            <p></p>
-          </div>
-          <div className="col-12 col-md-4">
-            <img src="/static/line.png" />
-          </div>
-          <div className="col-12 col-md-4">
-            <img src="/static/line.png" />
-          </div>
-        </div>
-      </section> */}
-
       <section className="cta">
         {/* <h3 className="fancy-font mb-3">คุณก็สามารถทำอาหารดีๆทานเองได้ที่บ้าน</h3> */}
         <Link to="/menus">
-          <button className="btn fancy-font btn-lg">เข้ามาดูเมนูก่อน</button>
+          <button className="btn fancy-font btn-lg">เข้ามาดูเมนูก่อน!</button>
         </Link>
       </section>
     </Layout>

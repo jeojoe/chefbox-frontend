@@ -11,42 +11,40 @@ export default () => (
     <Layout title="How to Buy | Chef Box Delivery : Ready to cook right at your home.">
       <div className="container">
         <h1 style={{ textAlign: 'center' }}>วิธีการสั่งซื้อ</h1>
-        <div className="row step-wrapper" style={{ justifyContent: 'center' }}>
-          <div className="col-xs-11 col-md-8">
-            <div className="step">
-              <div className="step-no">1</div>
-              <div className="step-text">ติดต่อ Admin ของเราผ่านทาง Line@ (@Chefboxdelivery)</div>
+        <div className="row">
+          <div className="col-12 col-md-3 step">
+            <div className="icon">
+              <i className="material-icons">perm_phone_msg</i>
             </div>
+            <h2>สั่งอาหาร</h2>
+            <p>วัตถุดิบและเครื่องปรุงทุกอย่าง ไดsdfnsdkjf้ถูกช่างตวงไว้อย่างพอเหมาะ เพื่อความอร่อยที่ลงตัว สามารถนำไปประกอบอาหารได้ทันที</p>
           </div>
-        </div>
-        <div className="row step-wrapper" style={{ justifyContent: 'center' }}>
-          <div className="col-xs-11 col-md-8">
-            <div className="step">
-              <div className="step-no">2</div>
-              <div className="step-text">เลือกเมนูอาหารผ่านทางหน้าเวปไซต์หรือจากที่ Admin ส่งให้</div>
+          <div className="col-12 col-md-3 step">
+            <div className="icon">
+              <i className="material-icons">shopping_cart</i>
             </div>
+            <h2>เลือกเมนูที่คุณชอบ</h2>
+            <p>เลือกเมนูอาหารผ่านทางเวปไซด์ หรือจาก Admin</p>
           </div>
-        </div>
-        <div className="row step-wrapper" style={{ justifyContent: 'center' }}>
-          <div className="col-xs-11 col-md-8">
-            <div className="step">
-              <div className="step-no">3</div>
-              <div className="step-text">รับวัตถุดิบที่ส่งตรงถึงคุณ</div>
+          <div className="col-12 col-md-3 step">
+            <div className="icon">
+              <i className="material-icons">motorcycle</i>
             </div>
+            <h2>จัดส่งถึงมือคุณ</h2>
+            <p>จัดส่งถึงมือคุณ 1 วันหลังจากออเดอร์</p>
           </div>
-        </div>
-        <div className="row step-wrapper" style={{ justifyContent: 'center' }}>
-          <div className="col-xs-11 col-md-8">
-            <div className="step">
-              <div className="step-no">4</div>
-              <div className="step-text">สนุกกับการทำอาหาร และอิ่มใจไปกับรสชาตที่คุณทำเอง</div>
+          <div className="col-12 col-md-3 step">
+            <div className="icon">
+              <i className="material-icons">restaurant_menu</i>
             </div>
+            <h2>ทำอาหารมื้อพิเศษ</h2>
+            <p>สนุกกับประสบการณ์ใหม่ ในการทำอาหารไปกับchefbox</p>
           </div>
         </div>
         
         <div className="row" style={{ justifyContent: 'center' }}>
           <div className="col-xs-11 col-md-8">
-            <h1>ช่องทางการสั่งซื้อ</h1>
+            <h1>ทำอาหารมื้อพิเศษ</h1>
             <div className="contact-box">
             Line@ ID : @Chefboxdelivery มี @ ด้วยนะค้า Facebook fan page : Chefbox.delivery (ทาง inbox นะคะ)
             </div>
