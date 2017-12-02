@@ -20,9 +20,6 @@
   
   .detail {
     padding-top: 20px;
-    &.last {
-      margin: 20px 0 19px;
-    }
     .head-box {
       border: 3px solid var(--mainColor);
       padding: 10px;
