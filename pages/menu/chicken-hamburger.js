@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import { Layout, CTASection, InstructionCard } from '../components';
-import stylesheet from '../styles/pages/menu.css';
+import { Layout, CTASection, InstructionCard } from '../../components';
+import stylesheet from '../../styles/pages/menu.css';
 
 export default () => (
   <div id="menu-page">
