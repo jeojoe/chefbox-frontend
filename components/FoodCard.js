@@ -9,7 +9,7 @@ const FoodCard = ({ name, slug, price, servings, time, spicy }) => (
       <Head>
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
       </Head>
-      <div className="image" style={{ backgroundImage: 'url(https://media.blueapron.com/recipes/2511/c_main_dish_images/1503683201-7-0065-0427/925_2PP_Half-Chicken_82663_WEB_Center_high_menu_thumb.jpg)' }} />
+      <div className="image" style={{ backgroundImage: `url("/static/menus/${slug}/main.jpg")` }} />
       <div className="content">
         <div style={{ height: '80px', marginBottom: '20px' }}>
           <h2 style={{ maxHeight: '54px', overflow: 'hidden' }}>{name}</h2>
