@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { Layout, FoodCard, CTASection } from '../components';
 import { Link } from '../routes';
 import stylesheet from '../styles/pages/menus.css';
+import { getMenus } from '../utils/dummyData';
 
 export default () => (
   <div id="menu-page">
@@ -22,12 +23,23 @@ export default () => (
       <section className="container">
         <div className="row justify-content-center">
           <div className="col-sm-10">
+            {console.log(getMenus())}
             <div className="row justify-content-center">
-              <div className="col-12 col-sm-6 col-md-4">
-                <div className="box">
-                  <FoodCard />
+              {getMenus().map(menu => (
+                <div className="col-12 col-sm-6 col-md-4" key={menu.id}>
+                  <div className="box">
+                    <FoodCard
+                      name={menu.name_th}
+                      slug={menu.slug}
+                      price={menu.price}
+                      servings={menu.servings}
+                      time={menu.time}
+                      spicy={menu.spicy}
+                      difficulty={menu.difficulty}
+                    />
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

@@ -5,8 +5,8 @@ const menus = [{
   price: 230,
   servings: 2,
   time: '30-45 นาที',
-  spicy: 0,
-  difficulty: 0,
+  spicy: 'ไม่เผ็ด',
+  difficulty: 'ปานกลาง',
 }];
 
 function attachId(dataArray) {
