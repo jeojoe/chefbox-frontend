@@ -56,6 +56,8 @@ const Layout = ({ children, title }) => (
   <div>
     <Head>
       <title>{ title }</title>
+      <link rel="icon" type="image/png" href="/static/favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="/static/favicon-16x16.png" sizes="16x16" />
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link href="https://fonts.googleapis.com/css?family=Mitr:300,400,500" rel="stylesheet" />
