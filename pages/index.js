@@ -63,10 +63,7 @@ const Index = () => (
       <section className="menu-month white-bg">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-6">
-              <img />
-            </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 offset-md-6">
               <div className="box">
                 <h2>มีไรบ้างในกล่องของ<br />Chefbox</h2>
                 <div className="items">

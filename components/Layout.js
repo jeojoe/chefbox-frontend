@@ -111,7 +111,7 @@ const Layout = ({ children, title }) => (
             <img src="/static/logo.png" alt="Chef Box Delivery : Ready to Cook" className="logo" />
             <h1>Chef Box Delivery</h1>
             <p>ประสบการณ์ใหม่ในการทำอาหาร ส่งตรงถึงบ้านคุณ สนุกกับการทำอาหารได้อย่างเต็มที่ !</p>
-            <p>am.chefbox@gmail.com, 092-016-0836</p>
+            <p className="mb-5">am.chefbox@gmail.com, 092-016-0836</p>
           </div>
           <div className="col-xs-12 col-md-9">
             <div className="row">
@@ -125,7 +125,7 @@ const Layout = ({ children, title }) => (
                   <i className="fa fa-facebook-official" ariaHidden="true" />
                   <p>Facebook: Chefbox Delivery</p>
                 </div>
-                <div className="social">
+                <div className="social mb-5">
                   <i className="fa fa-instagram" ariaHidden="true" />
                   <p>Instagram: @chefbox.delivery</p>
                 </div>

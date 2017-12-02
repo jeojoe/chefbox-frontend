@@ -46,7 +46,7 @@ const ReviewCarousel = () => (
                 />
                 <a href="https://www.instagram.com/jaja_primrata/" target="__blank">jaja_primrata</a>
               </div>
-              <p>สุขสันต์วันแม่ล่วงหน้าด้วยจากน้ำยาปูจาก Chefbox ขอบคุณน้องแอมมากๆค่ะ</p>
+              <p className="mb-3">สุขสันต์วันแม่ล่วงหน้าด้วยจากน้ำยาปูจาก Chefbox ขอบคุณน้องแอมมากๆค่ะ</p>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const ReviewCarousel = () => (
                 />
                 <a href="https://www.instagram.com/jaja_primrata/" target="__blank">jaja_primrata</a>
               </div>
-              <p>สุขสันต์วันแม่ล่วงหน้าด้วยจากน้ำยาปูจาก Chefbox ขอบคุณน้องแอมมากๆค่ะ</p>
+              <p className="mb-3">สุขสันต์วันแม่ล่วงหน้าด้วยจากน้ำยาปูจาก Chefbox ขอบคุณน้องแอมมากๆค่ะ</p>
             </div>
           </div>
         </div>
