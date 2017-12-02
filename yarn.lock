@@ -4391,6 +4391,12 @@ react-responsive-carousel@^3.1.28:
     prop-types "^15.5.8"
     react-easy-swipe "^0.0.13"
 
+react-scroll@^1.6.7:
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.6.7.tgz#23b55b1333411e729ea1a609686b1f87978ce77b"
+  dependencies:
+    prop-types "^15.5.8"
+
 react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
