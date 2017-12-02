@@ -23,7 +23,7 @@ export default class extends Component {
                 <div className="icon">
                   <i className="material-icons">perm_phone_msg</i>
                 </div>
-                <h3>สั่งอาหาร</h3>
+                <h3>1. สั่งอาหาร</h3>
                 <p>ติดต่อ Admin ของเราผ่านทาง Line@  (@chefboxdelivery)</p>
                 <Scroll.Link activeClass="active" to="step1" spy smooth offset={-50} duration={500}>
                   <button
@@ -39,7 +39,7 @@ export default class extends Component {
                 <div className="icon">
                   <i className="material-icons">shopping_cart</i>
                 </div>
-                <h3>เลือกเมนูที่ชอบ</h3>
+                <h3>2. เลือกเมนูที่ชอบ</h3>
                 <p>เลือกเมนูอาหารผ่านทางเวปไซด์ หรือจาก Admin</p>
                 <Scroll.Link activeClass="active" to="step2" spy smooth offset={-50} duration={500}>
                   <button
@@ -55,7 +55,7 @@ export default class extends Component {
                 <div className="icon">
                   <i className="material-icons">motorcycle</i>
                 </div>
-                <h3>จัดส่งถึงมือคุณ</h3>
+                <h3>3. จัดส่งถึงมือคุณ</h3>
                 <p>จัดส่งถึงมือคุณ 1 วันหลังจากวันที่คุณสั่งซื้อ</p>
                 <Scroll.Link activeClass="active" to="step3" spy smooth offset={-50} duration={500}>
                   <button
@@ -71,7 +71,7 @@ export default class extends Component {
                 <div className="icon">
                   <i className="material-icons">restaurant_menu</i>
                 </div>
-                <h3>ทำอาหารมื้อพิเศษ</h3>
+                <h3>4. ทำอาหารมื้อพิเศษ</h3>
                 <p>สนุกกับประสบการณ์ใหม่ ในการทำอาหารไปกับchefbox</p>
                 <Scroll.Link activeClass="active" to="step4" spy smooth offset={-50} duration={500}>
                   <button
