@@ -10,7 +10,7 @@ export default () => (
     </Head>
     <Layout title="Menu | Chef Box Delivery : Ready to cook right at your home.">
       {/* Image for Mobile */}
-      <img className="show-sm mobile-image" src="/static/menus/chicken-humburg/main.jpg" alt="Chefbox : {menu name}" />
+      <img className="show-sm mobile-image" src="/static/menus/chicken-hamburger/main.jpg" alt="Chefbox : {menu name}" />
 
       <section className="header container">
         <div className="row">
@@ -46,7 +46,7 @@ export default () => (
           </div>
           <div className="col-12 col-md-1" />
           <div className="col-12 col-md-6 hide-sm">
-            <img src="/static/menus/chicken-humburg/main.jpg" alt="1!!!!!! menu-name !!" style={{ width: '100%' }} />
+            <img src="/static/menus/chicken-hamburger/main.jpg" alt="1!!!!!! menu-name !!" style={{ width: '100%' }} />
           </div>
         </div>
       </section>
@@ -55,7 +55,7 @@ export default () => (
         <h2 className="fancy-font main-color-font">วัตถุดิบ (ภายในกล่อง)</h2>
         <div className="row">
           <div className="col-12 col-md-8">
-            <img src="/static/menus/chicken-humburg/ingredients.jpg" alt="ingredients" style={{ width: '100%' }} />
+            <img src="/static/menus/chicken-hamburger/ingredients.jpg" alt="ingredients" style={{ width: '100%' }} />
           </div>
           <div className="col-12 col-md-3" style={{ paddingTop: '20px' }}>
             <p className="ingreds-label fancy-font">วัตถุดิบสำหรับหมักไก่</p>
@@ -158,7 +158,7 @@ export default () => (
         <h2 className="fancy-font main-color-font">วิธีการทำอาหาร</h2>
         <div className="row">
           <div className="col-12 col-md-6 step">
-            <img src="/static/menus/chicken-humburg/step-1.jpg" className="step-img" alt="Chefbox : instruction 1" />
+            <img src="/static/menus/chicken-hamburger/step-1.jpg" className="step-img" alt="Chefbox : instruction 1" />
             <h4 className="fancy-font main-color-font">1. เตรียมวัตถุดิบ</h4>
             <hr className="small" />
             <p>1. หั่นแครอทเป็นลูกเต๋า ขนาดประมาณ 1 ซม.<br />
@@ -166,31 +166,31 @@ export default () => (
           3. แยกไข่แดงออกจากไข่ขาว</p>
           </div>
           <div className="col-12 col-md-6 step">
-            <img src="/static/menus/chicken-humburg/step-2.jpg" className="step-img" alt="Chefbox : instruction 2" />
+            <img src="/static/menus/chicken-hamburger/step-2.jpg" className="step-img" alt="Chefbox : instruction 2" />
             <h4 className="fancy-font main-color-font">2. หมักเนื้อไก่</h4>
             <hr className="small" />
             <p>นำส่วนผสมสำหรับหมักไก่ ใส่ทุกอย่างลงในถ้วย จากนั้นนวดส่วนผสมในถ้วยจนเข้ากัน แล้วนำส่วนผสมที่ผสมเสร็จแล้ว ไปเข้าตู้เย็นช่องแช่แข็งอย่างน้อย 5 นาที เพื่อให้เซ็ทตัว</p>
           </div>
           <div className="col-12 col-md-6 step">
-            <img src="/static/menus/chicken-humburg/step-3.jpg" className="step-img" alt="Chefbox : instruction 3" />
+            <img src="/static/menus/chicken-hamburger/step-3.jpg" className="step-img" alt="Chefbox : instruction 3" />
             <h4 className="fancy-font main-color-font">3. ปั้นเนื้อไก่</h4>
             <hr className="small" />
             <p>นำไก่ออกมาจากตู้เย็น แบ่งไก่ที่ผสมแล้วออกเป็น 6 ส่วนเท่าๆกัน (ประมาณส่วนละ 30 กรัม) ปั้นเป็นก้อนกลมๆ แล้วค่อยๆกดเนื้อไก่ให้แบนออก อย่าให้หนา หรือบางเกินไป</p>
           </div>
           <div className="col-12 col-md-6 step">
-            <img src="/static/menus/chicken-humburg/step-4.jpg" className="step-img" alt="Chefbox : instruction 4" />
+            <img src="/static/menus/chicken-hamburger/step-4.jpg" className="step-img" alt="Chefbox : instruction 4" />
             <h4 className="fancy-font main-color-font">4. คลุกแป้ง</h4>
             <hr className="small" />
             <p>แล้วนำไปคลุกลงในแป้งสาลีเอนกประสงค์เล็กน้อยให้พอเคลือบรอบไก่บางๆ จากนั้นนำไปเรียงใส่จาน(ควรโรยแป้งไว้บนจานเล็กน้อย เพื่อกันไม่ให้เนื้อไก่ติดกับจาน) ทำจนให้ครบ 6 ก้อน แล้วนำเข้าตู้เย็นเพื่อให้ไก่เซตตัวอีกครั้งก่อนลงทอด</p>
           </div>
           <div className="col-12 col-md-6 step">
-            <img src="/static/menus/chicken-humburg/step-5.jpg" className="step-img" alt="Chefbox : instruction 5" />
+            <img src="/static/menus/chicken-hamburger/step-5.jpg" className="step-img" alt="Chefbox : instruction 5" />
             <h4 className="fancy-font main-color-font">5. ทำซอส</h4>
             <hr className="small" />
             <p>ระหว่างรอเนื้อไก่เซ็ทตัว ให้เตรียมซอสโดยตั้งกระทะใช้ไฟกลาง ใส่มิรินและสาเกลงไป ต้มให้เดือดแล้วทิ้งไว้ให้แอลกอฮอล์ระเหยประมาณ 30 วินาที จากนั้นใส่น้ำตาลทราย และซีอิ๊วญี่ปุ่น ต้มจนเดือด ลดไฟให้อ่อน แล้วคนไปเรื่อยๆ จนซอสเริ่มข้นและค่อยปิดไฟ (เมื่อซอสเย็นลงจะข้นขึ้นอีกเล็กน้อย)</p>
           </div>
           <div className="col-12 col-md-6 step">
-            <img src="/static/menus/chicken-humburg/step-6.jpg" className="step-img" alt="Chefbox : instruction 6" />
+            <img src="/static/menus/chicken-hamburger/step-6.jpg" className="step-img" alt="Chefbox : instruction 6" />
             <h4 className="fancy-font main-color-font">6. ทอดไก่ และผัดแครอท</h4>
             <hr className="small" />
             <p>นำไก่ออกมาจากตู้เย็น ตั้งกระทะด้วยไฟกลางค่อนไปทางอ่อน ใส่น้ำมันพืชแล้วรอให้น้ำมันร้อน จากนั้นนำแครอท ลงไปทอดในกระทะ และนำไก่ที่เตรียมไว้ลงทอดบนกระทะจนไก่สุกทั้ง 2 ด้าน ใช้แปรงหรือช้อนทาซอสให้ทั่วทั้งสองด้านของไก่ และราดซอสบางส่วนลงไปบนแครอท ตักทั้งไก่กับแครอทขึ้นพักไว้ แล้วเตรียมจัดการได้เลย</p>
