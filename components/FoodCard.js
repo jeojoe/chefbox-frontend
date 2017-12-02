@@ -13,7 +13,7 @@ const FoodCard = ({ name, slug, price, servings, time, spicy }) => (
       <div className="content">
         <div style={{ height: '80px', marginBottom: '20px' }}>
           <h2 style={{ maxHeight: '54px', overflow: 'hidden' }}>{name}</h2>
-          <h5>{price} ฿</h5>
+          <h6>{price} ฿</h6>
         </div>
         <div className="details">
           <div className="time item">
