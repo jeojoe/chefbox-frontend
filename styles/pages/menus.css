@@ -24,13 +24,8 @@
       }
     }
   }
-  .menus {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    .box {
-      // max-width: 315px;
-      padding: 0 5px;
-      margin-bottom: 30px;
-    }
+  .box {
+    // max-width: 315px;
+    margin-bottom: 30px;
   }
 }

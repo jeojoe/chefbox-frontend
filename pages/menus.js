@@ -20,34 +20,12 @@ export default () => (
       </section>
 
       <section className="container">
-        <div className="menus">
-          <div className="row" style={{ justifyContent: 'center' }}>
-            <div className="col-xs-10">
-              <div className="row">
-                <div className="col-xs-12 col-sm-6 col-md-4">
-                  <div className="box">
-                    <FoodCard />
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-6 col-md-4">
-                  <div className="box">
-                    <FoodCard />
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-6 col-md-4">
-                  <div className="box">
-                    <FoodCard />
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-6 col-md-4">
-                  <div className="box">
-                    <FoodCard />
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-6 col-md-4">
-                  <div className="box">
-                    <FoodCard />
-                  </div>
+        <div className="row justify-content-center">
+          <div className="col-sm-10">
+            <div className="row justify-content-center">
+              <div className="col-12 col-sm-6 col-md-4">
+                <div className="box">
+                  <FoodCard />
                 </div>
               </div>
             </div>
