@@ -2,9 +2,9 @@
   --mainColor: #11346B;
   --mainDarkenColor: color(#11346B blackness(+ 5%));
   --lightBlueColor: #DEEBFF;
-  --accentColor1: #FF7E0B;
-  --accentDarkenColor1: color(#FF7E0B blackness(+ 5%));
-  --accentHeavyColor1: #EB3D00;
+  --accentColor1: #11346B;
+  --accentDarkenColor1: color(#11346B blackness(+ 5%));
+  --accentHeavyColor1: #11346B;
   --accentColor2: #007D68;
   --buttonRadius: 10px;
   @custom-media --sm (min-width: 48em);

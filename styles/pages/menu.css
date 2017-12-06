@@ -128,4 +128,12 @@
     font-weight: 300;
     margin-bottom: 15px;
   }
+  .checkbox {
+    transform: scale(1.01);
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .unit {
+    min-width: 75px;
+  }
 }

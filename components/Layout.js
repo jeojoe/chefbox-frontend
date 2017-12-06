@@ -110,8 +110,8 @@ const Layout = ({ children, title }) => (
           <div className="col-xs-12 col-md-3 company">
             <img src="/static/logo.png" alt="Chef Box Delivery : Ready to Cook" className="logo" />
             <h1>Chef Box Delivery</h1>
-            <p>ประสบการณ์ใหม่ในการทำอาหาร ส่งตรงถึงบ้านคุณ สนุกกับการทำอาหารได้อย่างเต็มที่ !</p>
-            <p className="mb-5">am.chefbox@gmail.com, 092-016-0836</p>
+            <p>ประสบการณ์ใหม่ในการทำอาหาร<br />ส่งตรงถึงบ้านคุณ สนุกกับการทำอาหาร<br />ได้อย่างเต็มที่ !</p>
+            <p className="mb-5">chefbox.delivery.th@gmail.com</p>
           </div>
           <div className="col-xs-12 col-md-9">
             <div className="row">
@@ -119,15 +119,25 @@ const Layout = ({ children, title }) => (
                 <h5 className="fancy-font main-color-font">ติดตามเราได้ที่</h5>
                 <div className="social">
                   <img src="/static/line.png" alt="line" style={{ width: '40px', height: '40px' }} />
-                  <p>Line: @chefbox.delivery</p>
+                  <p>Line: @chefbox</p>
                 </div>
                 <div className="social">
-                  <i className="fa fa-facebook-official" ariaHidden="true" />
-                  <p>Facebook: Chefbox Delivery</p>
+                  <i className="fa fa-facebook-official" ariaHidden="true" style={{ textDecoration: 'none' }} />
+                  <a
+                    href="https://www.facebook.com/Chefboxdelivery-115120712513954/"
+                    target="__blank"
+                  >
+                    <p>Facebook: Chefbox Delivery</p>
+                  </a>
                 </div>
                 <div className="social mb-5">
                   <i className="fa fa-instagram" ariaHidden="true" />
-                  <p>Instagram: @chefbox.delivery</p>
+                  <a
+                    href="https://www.instagram.com/chefbox.delivery/"
+                    target="__blank"
+                  >
+                    <p>Instagram: @chefbox.delivery</p>
+                  </a>
                 </div>
               </div>
               <div className="col-xs-12 col-md-3">

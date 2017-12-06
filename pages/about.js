@@ -61,7 +61,7 @@ export default () => (
                 </div>
               </div>
               <div className="col-xs-12 col-md-7">
-                <p className="head">Line@(@Chefboxdelivery) Inbox Facebook fan page (Chefbox.delivery)</p>
+                <p className="head">Line@(@Chefbox)<br />Inbox Facebook fan page (Chefbox.delivery)</p>
               </div>
             </div>
           </div>

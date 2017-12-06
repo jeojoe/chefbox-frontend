@@ -73,7 +73,11 @@ const Index = () => (
                   </div>
                   <div className="item">
                     <i className="material-icons">restaurant_menu</i>
-                    <p>วัตถุดิบสดใหม่ที่ถูกคัดสรรมาอย่างดี บรรจุแยกกันอย่างเป็นสัดส่วน</p>
+                    <p>วัตถุดิบสดใหม่ที่ถูกคัดสรรมาอย่างดี</p>
+                  </div>
+                  <div className="item">
+                    <i className="material-icons">restaurant_menu</i>
+                    <p>บรรจุแยกกันอย่างเป็นสัดส่วน</p>
                   </div>
                   <div className="item">
                     <i className="material-icons">restaurant_menu</i>

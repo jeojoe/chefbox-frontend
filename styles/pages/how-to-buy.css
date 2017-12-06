@@ -41,7 +41,7 @@
     font-family: 'Mitr';
   }
   .color-bg {
-    background-color: #edf4ff;
+    background-color: var(--mainColor);
   }
   .btn-link {
     p {
@@ -68,6 +68,7 @@
     .text {
       background-color: #fff;
       padding: 50px 5%;
+      box-shadow: 0px 2px 4px rgba(0,0,0,11);
     }
     .button {
       background-color: var(--accentColor1);
@@ -85,11 +86,10 @@
         margin-right: 5px;
         color: var(--mainColor);
         font-size: 20px;
-        padding-top: 1px;
+        padding-top: 10px;
       }
       .item {
         display: flex;
-        align-items: center;
         margin-bottom: 10px;
         p {
           font-weight: 300;

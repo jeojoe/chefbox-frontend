@@ -9,7 +9,7 @@ const FoodCard = ({ name, slug, price, servings, time, spicy }) => (
       <Head>
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
       </Head>
-      <div className="image" style={{ backgroundImage: `url("/static/menus/${slug}/main.jpg")` }} />
+      <div className="image" style={{ backgroundImage: `url("/static/menus/${slug}/thumbnail.jpg")` }} />
       <div className="content">
         <div style={{ height: '80px', marginBottom: '20px' }}>
           <h2 style={{ maxHeight: '54px', overflow: 'hidden' }}>{name}</h2>

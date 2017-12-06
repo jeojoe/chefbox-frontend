@@ -29,7 +29,7 @@ export default class extends Component {
                   <button
                     className="btn btn-link"
                   >
-                    <p>More Details</p>
+                    <p>วิธีการสั่งอาหาร</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -45,7 +45,7 @@ export default class extends Component {
                   <button
                     className="btn btn-link"
                   >
-                    <p>More Details</p>
+                    <p>วิธีเลือกเมนู</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -55,13 +55,13 @@ export default class extends Component {
                 <div className="icon">
                   <i className="material-icons">motorcycle</i>
                 </div>
-                <h3>3. จัดส่งถึงมือคุณ</h3>
+                <h3>3. ส่งถึงมือคุณ</h3>
                 <p>จัดส่งถึงมือคุณ 1 วันหลังจากวันที่คุณสั่งซื้อ</p>
                 <Scroll.Link activeClass="active" to="step3" spy smooth offset={-50} duration={500}>
                   <button
                     className="btn btn-link"
                   >
-                    <p>More Details</p>
+                    <p>ขั้นตอนการจัดส่ง</p>
                     <i className="material-icons">keyboard_arrow_down</i>
                   </button>
                 </Scroll.Link>
@@ -71,16 +71,15 @@ export default class extends Component {
                 <div className="icon">
                   <i className="material-icons">restaurant_menu</i>
                 </div>
-                <h3>4. ทำอาหารมื้อพิเศษ</h3>
+                <h3>4. ทำมื้อพิเศษ</h3>
                 <p>สนุกกับประสบการณ์ใหม่ ในการทำอาหารไปกับchefbox</p>
-                <Scroll.Link activeClass="active" to="step4" spy smooth offset={-50} duration={500}>
+                <Link to="/menus">
                   <button
-                    className="btn btn-link"
+                    className="btn btn-primary"
                   >
-                    <p>More Details</p>
-                    <i className="material-icons">keyboard_arrow_down</i>
+                    <p style={{ marginBottom: '5px' }} className="fancy-font">เลือกเมนู ></p>
                   </button>
-                </Scroll.Link>
+                </Link>
               </div>
             </div>
           </div>
@@ -99,7 +98,7 @@ export default class extends Component {
                       <h2 className="fancy-font">ช่องทางการสั่งซื้อ</h2>
                       <div className="contact-box">
                         <p>มี 2 ช่องทางการสั่งซื้อ</p>
-                        Line@ ID : @Chefboxdelivery มี @ ด้วยนะค้า<br />Facebook fan page : Chefbox.delivery (ทาง inbox นะคะ)
+                        Line@ ID : @chefbox มี @ ด้วยนะค้า<br />Facebook fan page : Chefbox.delivery <br />(ทาง inbox นะคะ)
                       </div>
                       <h5 className="fancy-font mb-3">เงื่อนไขการสั่งซื้อ</h5>
                       <ol className="condition">
@@ -131,7 +130,7 @@ export default class extends Component {
                         </div>
                         <div className="item">
                           <i className="material-icons">restaurant_menu</i>
-                          <p>ความสุขในการทำอาหาร สามารถมีได้ ตั้งแต่ 20 นาทีถึง 1 ชั่วโมง ขึ้นอยู่กับแต่ละเมนู</p>
+                          <p>วัตถุดิบจะถูกชั่งตรวงไว้ ในสัดส่วนที่พอดี</p>
                         </div>
                         <div className="item">
                           <i className="material-icons">restaurant_menu</i>
@@ -139,7 +138,7 @@ export default class extends Component {
                         </div>
                         <div className="item">
                           <i className="material-icons">restaurant_menu</i>
-                          <p>วัตถุดิบจะถูกชั่งตรวงไว้ ในสัดส่วนที่พอดี</p>
+                          <p>ความสุขในการทำอาหาร สามารถมีได้ ตั้งแต่ 20 นาทีถึง 1 ชั่วโมง ขึ้นอยู่กับแต่ละเมนู</p>
                         </div>
                         <div className="item">
                           <i className="material-icons">restaurant_menu</i>
@@ -173,6 +172,14 @@ export default class extends Component {
                       <div className="items">
                         <div className="item">
                           <i className="material-icons">restaurant_menu</i>
+                          <p>วัตถุดิบ สามารถเก็บในตู้เย็นได้ 2 วัน</p>
+                        </div>
+                        <div className="item">
+                          <i className="material-icons">restaurant_menu</i>
+                          <p>จัดส่งด้วยแมสเซนเจอร์ของบริษัทใหญ่เชื่อใจได้ (LALAMOVE)</p>
+                        </div>
+                        <div className="item">
+                          <i className="material-icons">restaurant_menu</i>
                           <p>อาหารจะบรรจุในกล่องที่ควบคุมอุณหภูมิด้วย เจลให้ความเย็น</p>
                         </div>
                         <div className="item">
@@ -181,15 +188,7 @@ export default class extends Component {
                         </div>
                         <div className="item">
                           <i className="material-icons">restaurant_menu</i>
-                          <p>จัดส่งด้วยแมสเซนเจอร์ของบริษัทใหญ่เชื่อใจได้</p>
-                        </div>
-                        <div className="item">
-                          <i className="material-icons">restaurant_menu</i>
                           <p>คุณไม่จำเป็นต้องอยู่รับของเองหรือห่วงเรื่องตู้เย็นเพราะ เจลเย็นของเราสามารถควบคุมอุณหภมิได้นานกว่า 6 ชม.</p>
-                        </div>
-                        <div className="item">
-                          <i className="material-icons">restaurant_menu</i>
-                          <p>วัตถุดิบ สามารถเก็บในตู้เย็นได้ 2 วัน</p>
                         </div>
                       </div>
                     </div>
@@ -207,12 +206,8 @@ export default class extends Component {
                       <h2 className="fancy-font mb-4">บริการหลังการขาย</h2>
                       <p>ถ้าคุณมีคำถาม หรือปัญหาเกี่ยวกับ สูตรอาหาร  เทคนิคการทำอาหาร อุปกรณ์ทางเลือกอื่นๆ สามารถติดต่อสอบถามทีมช่วยเหลือของเราได้ ในเวลา 09.00-18.00 พวกเรา Chefbox ยินดีให้บริการ</p>
                       <div className="social">
-                        <i className="material-icons">perm_phone_msg</i>
-                        <p>092-016-0836</p>
-                      </div>
-                      <div className="social">
                         <img src="/static/line.png" alt="line" style={{ width: '40px', height: '40px' }} />
-                        <p>Line: @chefbox.delivery</p>
+                        <p>Line: @chefbox</p>
                       </div>
                       <Link route="/faq">
                         <button type="button" className="btn btn-primary ">คำถามที่พบบ่อย</button>

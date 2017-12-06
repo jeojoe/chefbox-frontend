@@ -26,7 +26,7 @@ export default () => (
             {console.log(getMenus())}
             <div className="row justify-content-center">
               {getMenus().map(menu => (
-                <div className="col-12 col-sm-6 col-md-4" key={menu.id}>
+                <div className="col-12 col-md-6 col-lg-4" key={menu.id}>
                   <div className="box">
                     <FoodCard
                       name={menu.name_th}

@@ -54,79 +54,113 @@ export default () => (
       <section className="ingredients container">
         <h2 className="fancy-font main-color-font">วัตถุดิบ (ภายในกล่อง)</h2>
         <div className="row">
-          <div className="col-12 col-md-8">
-            <img src="/static/menus/chicken-hamburger/ingredients.jpg" alt="ingredients" style={{ width: '100%' }} />
+          <div className="col-12 col-md-7 col-lg-8">
+            <img src="/static/menus/chicken-hamburger/ingredients.jpg" alt="ingredients" style={{ width: '100%', maxWidth: '650px' }} />
           </div>
-          <div className="col-12 col-md-3" style={{ paddingTop: '20px' }}>
+          <div className="col-12 col-md-5 col-lg-3" style={{ paddingTop: '20px' }}>
             <p className="ingreds-label fancy-font">วัตถุดิบสำหรับหมักไก่</p>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">สันในไก่บดละเอียด</h5>
-              <p className="ingreds-amount">300 กรัม</p>
+              <div className="unit">
+                <p className="ingreds-amount">300 กรัม</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">หอมหัวใหญ่ลูกเล็ก</h5>
-              <p className="ingreds-amount">1 ลูก</p>
+              <div className="unit">
+                <p className="ingreds-amount">1 ลูก</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">ไข่ไก่</h5>
-              <p className="ingreds-amount">1 ฟอง</p>
+              <div className="unit">
+                <p className="ingreds-amount">1 ฟอง</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">น้ำมันงา</h5>
-              <p className="ingreds-amount">1/2 ช้อนชา</p>
+              <div className="unit">
+                <p className="ingreds-amount">1/2 ช้อนชา</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">สาเก</h5>
-              <p className="ingreds-amount">2 ช้อนโต้ะ</p>
+              <div className="unit">
+                <p className="ingreds-amount">2 ช้อนโต้ะ</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">น้ำตาลทราย</h5>
-              <p className="ingreds-amount">1 ช้อนชา</p>
+              <div className="unit">
+                <p className="ingreds-amount">1 ช้อนชา</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">น้ำมันพืช</h5>
-              <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              <div className="unit">
+                <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">แป้งอเนกประสงค์</h5>
-              <p className="ingreds-amount">1/3 ถ้วย</p>
+              <div className="unit">
+                <p className="ingreds-amount">1/3 ถ้วย</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">ข้าวสวย</h5>
-              <p className="ingreds-amount">175 กรัม</p>
+              <div className="unit">
+                <p className="ingreds-amount">175 กรัม</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">แครอท</h5>
-              <p className="ingreds-amount">1/2 หัว</p>
+              <div className="unit">
+                <p className="ingreds-amount">1/2 หัว</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">เกลือป่น</h5>
-              <p className="ingreds-amount">&nbsp;</p>
+              <div className="unit">
+                <p className="ingreds-amount">&nbsp;</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">พริกไทยป่น</h5>
-              <p className="ingreds-amount">&nbsp;</p>
+              <div className="unit">
+                <p className="ingreds-amount">&nbsp;</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">สลัด</h5>
-              <p className="ingreds-amount">&nbsp;</p>
+              <div className="unit">
+                <p className="ingreds-amount">&nbsp;</p>
+              </div>
             </div>
             <p className="ingreds-label fancy-font">วัตถุดิบสำหรับทำซอส</p>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">มิริน</h5>
-              <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              <div className="unit">
+                <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">สาเกญี่ปุ่น</h5>
-              <p className="ingreds-amount">4 ช้อนชา</p>
+              <div className="unit">
+                <p className="ingreds-amount">4 ช้อนชา</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">น้ำตาลทราย</h5>
-              <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              <div className="unit">
+                <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              </div>
             </div>
             <div className="d-flex justify-content-between">
               <h5 className="ingreds-name">ซี่อิ๋วญี่ปุ่น</h5>
-              <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              <div className="unit">
+                <p className="ingreds-amount">4 ช้อนโต้ะ</p>
+              </div>
             </div>
           </div>
           <div className="col-12 col-md-1" />
@@ -149,6 +183,9 @@ export default () => (
             <div className="kitchen-item">
               มีด
             </div>
+            <div className="kitchen-item">
+              ตะหลิว
+            </div>
           </div>
         </div>
       </section>
@@ -159,7 +196,11 @@ export default () => (
         <div className="row">
           <div className="col-12 col-md-6 step">
             <img src="/static/menus/chicken-hamburger/step-1.jpg" className="step-img" alt="Chefbox : instruction 1" />
-            <h4 className="fancy-font main-color-font">1. เตรียมวัตถุดิบ</h4>
+            <div className="d-flex align-items-center">
+              <input type="checkbox" className="checkbox" />
+              <h4 className="fancy-font main-color-font" style={{ margin: 0 }}>
+              1. เตรียมวัตถุดิบ</h4>
+            </div>
             <hr className="small" />
             <p>1. หั่นแครอทเป็นลูกเต๋า ขนาดประมาณ 1 ซม.<br />
           2. หั่นหัวหอมใหญ่เป็นลูกเต๋าเล็กๆประมาณครึ่งเซนติเมตร<br />
@@ -167,31 +208,51 @@ export default () => (
           </div>
           <div className="col-12 col-md-6 step">
             <img src="/static/menus/chicken-hamburger/step-2.jpg" className="step-img" alt="Chefbox : instruction 2" />
-            <h4 className="fancy-font main-color-font">2. หมักเนื้อไก่</h4>
+            <div className="d-flex align-items-center">
+              <input type="checkbox" className="checkbox" />
+              <h4 className="fancy-font main-color-font" style={{ margin: 0 }}>
+              2. หมักเนื้อไก่</h4>
+            </div>
             <hr className="small" />
             <p>นำส่วนผสมสำหรับหมักไก่ ใส่ทุกอย่างลงในถ้วย จากนั้นนวดส่วนผสมในถ้วยจนเข้ากัน แล้วนำส่วนผสมที่ผสมเสร็จแล้ว ไปเข้าตู้เย็นช่องแช่แข็งอย่างน้อย 5 นาที เพื่อให้เซ็ทตัว</p>
           </div>
           <div className="col-12 col-md-6 step">
             <img src="/static/menus/chicken-hamburger/step-3.jpg" className="step-img" alt="Chefbox : instruction 3" />
-            <h4 className="fancy-font main-color-font">3. ปั้นเนื้อไก่</h4>
+            <div className="d-flex align-items-center">
+              <input type="checkbox" className="checkbox" />
+              <h4 className="fancy-font main-color-font" style={{ margin: 0 }}>
+              3. ปั้นเนื้อไก่</h4>
+            </div>
             <hr className="small" />
             <p>นำไก่ออกมาจากตู้เย็น แบ่งไก่ที่ผสมแล้วออกเป็น 6 ส่วนเท่าๆกัน (ประมาณส่วนละ 30 กรัม) ปั้นเป็นก้อนกลมๆ แล้วค่อยๆกดเนื้อไก่ให้แบนออก อย่าให้หนา หรือบางเกินไป</p>
           </div>
           <div className="col-12 col-md-6 step">
             <img src="/static/menus/chicken-hamburger/step-4.jpg" className="step-img" alt="Chefbox : instruction 4" />
-            <h4 className="fancy-font main-color-font">4. คลุกแป้ง</h4>
+            <div className="d-flex align-items-center">
+              <input type="checkbox" className="checkbox" />
+              <h4 className="fancy-font main-color-font" style={{ margin: 0 }}>
+              4. คลุกแป้ง</h4>
+            </div>
             <hr className="small" />
             <p>แล้วนำไปคลุกลงในแป้งสาลีเอนกประสงค์เล็กน้อยให้พอเคลือบรอบไก่บางๆ จากนั้นนำไปเรียงใส่จาน(ควรโรยแป้งไว้บนจานเล็กน้อย เพื่อกันไม่ให้เนื้อไก่ติดกับจาน) ทำจนให้ครบ 6 ก้อน แล้วนำเข้าตู้เย็นเพื่อให้ไก่เซตตัวอีกครั้งก่อนลงทอด</p>
           </div>
           <div className="col-12 col-md-6 step">
             <img src="/static/menus/chicken-hamburger/step-5.jpg" className="step-img" alt="Chefbox : instruction 5" />
-            <h4 className="fancy-font main-color-font">5. ทำซอส</h4>
+            <div className="d-flex align-items-center">
+              <input type="checkbox" className="checkbox" />
+              <h4 className="fancy-font main-color-font" style={{ margin: 0 }}>
+              5. ทำซอส</h4>
+            </div>
             <hr className="small" />
             <p>ระหว่างรอเนื้อไก่เซ็ทตัว ให้เตรียมซอสโดยตั้งกระทะใช้ไฟกลาง ใส่มิรินและสาเกลงไป ต้มให้เดือดแล้วทิ้งไว้ให้แอลกอฮอล์ระเหยประมาณ 30 วินาที จากนั้นใส่น้ำตาลทราย และซีอิ๊วญี่ปุ่น ต้มจนเดือด ลดไฟให้อ่อน แล้วคนไปเรื่อยๆ จนซอสเริ่มข้นและค่อยปิดไฟ (เมื่อซอสเย็นลงจะข้นขึ้นอีกเล็กน้อย)</p>
           </div>
           <div className="col-12 col-md-6 step">
             <img src="/static/menus/chicken-hamburger/step-6.jpg" className="step-img" alt="Chefbox : instruction 6" />
-            <h4 className="fancy-font main-color-font">6. ทอดไก่ และผัดแครอท</h4>
+            <div className="d-flex align-items-center">
+              <input type="checkbox" className="checkbox" />
+              <h4 className="fancy-font main-color-font" style={{ margin: 0 }}>
+              6. ทอดไก่ และผัดแครอท</h4>
+            </div>
             <hr className="small" />
             <p>นำไก่ออกมาจากตู้เย็น ตั้งกระทะด้วยไฟกลางค่อนไปทางอ่อน ใส่น้ำมันพืชแล้วรอให้น้ำมันร้อน จากนั้นนำแครอท ลงไปทอดในกระทะ และนำไก่ที่เตรียมไว้ลงทอดบนกระทะจนไก่สุกทั้ง 2 ด้าน ใช้แปรงหรือช้อนทาซอสให้ทั่วทั้งสองด้านของไก่ และราดซอสบางส่วนลงไปบนแครอท ตักทั้งไก่กับแครอทขึ้นพักไว้ แล้วเตรียมจัดการได้เลย</p>
           </div>
